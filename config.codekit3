@@ -9,52 +9,97 @@
   ],
   "creatorBuild" : "34335",
   "files" : {
-    "\/build\/.gitignore" : {
+    "\/Assignments\/Assignment_03\/deploy\/.gitkeep" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/.gitignore",
+      "oAP" : "\/Assignments\/Assignment_03\/deploy\/.gitkeep",
       "oF" : 0
     },
-    "\/deploy\/.gitkeep" : {
+    "\/Assignments\/Assignment_03\/deploy\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/.gitkeep",
+      "oAP" : "\/Assignments\/Assignment_03\/deploy\/index.html",
       "oF" : 0
     },
-    "\/deploy\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/index.html",
-      "oF" : 0
-    },
-    "\/deploy\/index.kit" : {
+    "\/Assignments\/Assignment_03\/deploy\/index.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/index.html",
+      "oAP" : "\/Assignments\/Assignment_03\/deploy\/index.html",
       "oF" : 0
     },
-    "\/dev\/index.html" : {
+    "\/Assignments\/Assignment_03\/deploy\/mm-min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/Assignments\/Assignment_03\/deploy\/mm-min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/Assignments\/Assignment_03\/deploy\/mm.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/Assignments\/Assignment_03\/deploy\/mm-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/Assignments\/Assignment_03\/deploy\/moo.jpg" : {
+      "ft" : 16384,
+      "iS" : 852936,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/Assignments\/Assignment_03\/deploy\/moo.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/Assignments\/Assignment_03\/dev\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dev\/index.html",
+      "oAP" : "\/Assignments\/Assignment_03\/dev\/index.html",
       "oF" : 0
     },
-    "\/dev\/index.kit" : {
+    "\/Assignments\/Assignment_03\/dev\/index.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dev\/index.html",
+      "oAP" : "\/Assignments\/Assignment_03\/dev\/index.html",
+      "oF" : 0
+    },
+    "\/week 3\/w-03-01.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/week 3\/w-03-01.html",
+      "oF" : 0
+    },
+    "\/week 3\/w-03-02-html-structure.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/week 3\/w-03-02-html-structure.html",
       "oF" : 0
     }
   },
@@ -66,7 +111,7 @@
   },
   "projectAttributes" : {
     "creationDate" : 671243941.00974798,
-    "displayValue" : "Web-2",
+    "displayValue" : "WMGD-330",
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "brackets_gray",
     "iconImageWasSetByUser" : 0,
