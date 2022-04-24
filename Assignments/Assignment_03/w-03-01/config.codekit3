@@ -4,89 +4,17 @@
     {
       "name" : "Process All Remaining Files and Folders",
       "stepType" : 1,
-      "uuidString" : "3EAADFA8-8105-4BBC-904D-6B3FFDB57B82"
+      "uuidString" : "D821A712-A0EA-4532-98D9-9AEF1D5652A9"
     }
   ],
   "creatorBuild" : "34335",
   "files" : {
-    "\/Assignments\/Assignment_03\/deploy\/.gitkeep" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/Assignments\/Assignment_03\/deploy\/.gitkeep",
-      "oF" : 0
-    },
-    "\/Assignments\/Assignment_03\/deploy\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/Assignments\/Assignment_03\/deploy\/index.html",
-      "oF" : 0
-    },
-    "\/Assignments\/Assignment_03\/deploy\/index.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/Assignments\/Assignment_03\/deploy\/index.html",
-      "oF" : 0
-    },
-    "\/Assignments\/Assignment_03\/deploy\/mm-min.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/Assignments\/Assignment_03\/deploy\/mm-min-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/Assignments\/Assignment_03\/deploy\/mm.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/Assignments\/Assignment_03\/deploy\/mm-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/Assignments\/Assignment_03\/dev\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/Assignments\/Assignment_03\/dev\/index.html",
-      "oF" : 0
-    },
-    "\/Assignments\/Assignment_03\/dev\/index.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/Assignments\/Assignment_03\/dev\/index.html",
-      "oF" : 0
-    },
-    "\/Assignments\/Assignment_03\/w-03-01\/deploy\/2022-2023 Standalone Print Signature | FAFSA Application | Federal Student Aid.pdf" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/Assignments\/Assignment_03\/w-03-01\/deploy\/2022-2023 Standalone Print Signature | FAFSA Application | Federal Student Aid.pdf",
-      "oF" : 0
-    },
-    "\/Assignments\/Assignment_03\/w-03-01\/deploy\/assets\/images\/diavolo.jpg" : {
+    "\/deploy\/assets\/images\/diavolo.jpg" : {
       "ft" : 16384,
       "iS" : 865912,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/Assignments\/Assignment_03\/w-03-01\/deploy\/assets\/images\/diavolo.jpg",
+      "oAP" : "\/deploy\/assets\/images\/diavolo.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -94,12 +22,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/Assignments\/Assignment_03\/w-03-01\/deploy\/assets\/images\/gallery-1-nnopt.jpg" : {
+    "\/deploy\/assets\/images\/gallery-1-nnopt.jpg" : {
       "ft" : 16384,
       "iS" : 57536,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/Assignments\/Assignment_03\/w-03-01\/deploy\/assets\/images\/gallery-1-nnopt.jpg",
+      "oAP" : "\/deploy\/assets\/images\/gallery-1-nnopt.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -107,12 +35,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/Assignments\/Assignment_03\/w-03-01\/deploy\/assets\/images\/gallery-1-opt.jpg" : {
+    "\/deploy\/assets\/images\/gallery-1-opt.jpg" : {
       "ft" : 16384,
       "iS" : 103083,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/Assignments\/Assignment_03\/w-03-01\/deploy\/assets\/images\/gallery-1-opt.jpg",
+      "oAP" : "\/deploy\/assets\/images\/gallery-1-opt.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -120,12 +48,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/Assignments\/Assignment_03\/w-03-01\/deploy\/assets\/images\/gallery-1-opxt.jpg" : {
+    "\/deploy\/assets\/images\/gallery-1-opxt.jpg" : {
       "ft" : 16384,
       "iS" : 82640,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/Assignments\/Assignment_03\/w-03-01\/deploy\/assets\/images\/gallery-1-opxt.jpg",
+      "oAP" : "\/deploy\/assets\/images\/gallery-1-opxt.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -133,12 +61,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/Assignments\/Assignment_03\/w-03-01\/deploy\/assets\/images\/gallery-1vv-opt.jpg" : {
+    "\/deploy\/assets\/images\/gallery-1vv-opt.jpg" : {
       "ft" : 16384,
       "iS" : 109964,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/Assignments\/Assignment_03\/w-03-01\/deploy\/assets\/images\/gallery-1vv-opt.jpg",
+      "oAP" : "\/deploy\/assets\/images\/gallery-1vv-opt.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -146,12 +74,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/Assignments\/Assignment_03\/w-03-01\/deploy\/assets\/images\/gbballery-1-opt.jpg" : {
+    "\/deploy\/assets\/images\/gbballery-1-opt.jpg" : {
       "ft" : 16384,
       "iS" : 82872,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/Assignments\/Assignment_03\/w-03-01\/deploy\/assets\/images\/gbballery-1-opt.jpg",
+      "oAP" : "\/deploy\/assets\/images\/gbballery-1-opt.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -159,12 +87,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/Assignments\/Assignment_03\/w-03-01\/deploy\/assets\/images\/hero-2-desktop.jpg" : {
+    "\/deploy\/assets\/images\/hero-2-desktop.jpg" : {
       "ft" : 16384,
       "iS" : 453763,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/Assignments\/Assignment_03\/w-03-01\/deploy\/assets\/images\/hero-2-desktop.jpg",
+      "oAP" : "\/deploy\/assets\/images\/hero-2-desktop.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -172,12 +100,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/Assignments\/Assignment_03\/w-03-01\/deploy\/assets\/images\/image 2.jpg" : {
+    "\/deploy\/assets\/images\/image 2.jpg" : {
       "ft" : 16384,
       "iS" : 346626,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/Assignments\/Assignment_03\/w-03-01\/deploy\/assets\/images\/image 2.jpg",
+      "oAP" : "\/deploy\/assets\/images\/image 2.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -185,11 +113,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/Assignments\/Assignment_03\/w-03-01\/deploy\/assets\/images\/logo.png" : {
+    "\/deploy\/assets\/images\/logo.png" : {
       "ft" : 32768,
       "iS" : 18855,
       "oA" : 0,
-      "oAP" : "\/Assignments\/Assignment_03\/w-03-01\/deploy\/assets\/images\/logo.png",
+      "oAP" : "\/deploy\/assets\/images\/logo.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -198,12 +126,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/Assignments\/Assignment_03\/w-03-01\/deploy\/assets\/images\/parts.jpg" : {
+    "\/deploy\/assets\/images\/parts.jpg" : {
       "ft" : 16384,
       "iS" : 13140,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/Assignments\/Assignment_03\/w-03-01\/deploy\/assets\/images\/parts.jpg",
+      "oAP" : "\/deploy\/assets\/images\/parts.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -211,12 +139,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/Assignments\/Assignment_03\/w-03-01\/deploy\/assets\/images\/purchase.jpg" : {
+    "\/deploy\/assets\/images\/purchase.jpg" : {
       "ft" : 16384,
       "iS" : 17085,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/Assignments\/Assignment_03\/w-03-01\/deploy\/assets\/images\/purchase.jpg",
+      "oAP" : "\/deploy\/assets\/images\/purchase.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -224,12 +152,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/Assignments\/Assignment_03\/w-03-01\/deploy\/assets\/images\/purple haze feedback.jpg" : {
+    "\/deploy\/assets\/images\/purple haze feedback.jpg" : {
       "ft" : 16384,
       "iS" : 193911,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/Assignments\/Assignment_03\/w-03-01\/deploy\/assets\/images\/purple haze feedback.jpg",
+      "oAP" : "\/deploy\/assets\/images\/purple haze feedback.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -237,7 +165,7 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/Assignments\/Assignment_03\/w-03-01\/deploy\/assets\/styles\/main.css" : {
+    "\/deploy\/assets\/styles\/main.css" : {
       "aP" : 1,
       "bl" : 0,
       "ci" : 0,
@@ -245,32 +173,32 @@
       "ft" : 16,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/Assignments\/Assignment_03\/w-03-01\/deploy\/assets\/styles\/main-min.css",
+      "oAP" : "\/deploy\/assets\/styles\/main-min.css",
       "oF" : 0,
       "pg" : 0
     },
-    "\/Assignments\/Assignment_03\/w-03-01\/deploy\/index.html" : {
+    "\/deploy\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/Assignments\/Assignment_03\/w-03-01\/deploy\/index.html",
+      "oAP" : "\/deploy\/index.html",
       "oF" : 0
     },
-    "\/Assignments\/Assignment_03\/w-03-01\/dev\/assets\/images\/turtle.jpeg" : {
+    "\/dev\/assets\/images\/turtle.jpeg" : {
       "ft" : 16384,
       "iS" : 2005698,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/Assignments\/Assignment_03\/w-03-01\/dev\/assets\/images\/turtle.jpg",
-      "oF" : 0,
+      "oAP" : "\/deploy\/assets\/images\/turtle-in-water.jpeg",
+      "oF" : 3,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
     },
-    "\/Assignments\/Assignment_03\/w-03-01\/dev\/assets\/styles\/main.css" : {
+    "\/dev\/assets\/styles\/main.css" : {
       "aP" : 1,
       "bl" : 0,
       "ci" : 0,
@@ -278,33 +206,17 @@
       "ft" : 16,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/Assignments\/Assignment_03\/w-03-01\/dev\/assets\/styles\/main-min.css",
-      "oF" : 0,
+      "oAP" : "\/deploy\/assets\/styles\/main.css",
+      "oF" : 3,
       "pg" : 0
     },
-    "\/Assignments\/Assignment_03\/w-03-01\/dev\/index.kit" : {
+    "\/dev\/index.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/Assignments\/Assignment_03\/w-03-01\/dev\/index.html",
-      "oF" : 0
-    },
-    "\/week 3\/w-03-01.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/week 3\/w-03-01.html",
-      "oF" : 0
-    },
-    "\/week 3\/w-03-02-html-structure.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/week 3\/w-03-02-html-structure.html",
-      "oF" : 0
+      "oAP" : "\/deploy\/index.html",
+      "oF" : 3
     }
   },
   "hooks" : [
@@ -314,12 +226,12 @@
 
   },
   "projectAttributes" : {
-    "creationDate" : 671243941.00974798,
-    "displayValue" : "WMGD-330",
-    "displayValueWasSetByUser" : 0,
-    "iconImageName" : "brackets_gray",
+    "creationDate" : 606340463.18639195,
+    "displayValue" : "site",
+    "displayValueWasSetByUser" : 1,
+    "iconImageName" : "brackets-pink",
     "iconImageWasSetByUser" : 0,
-    "lastBuiltDate" : 671259858.67559004
+    "lastBuiltDate" : 671492658.99441195
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,
@@ -624,11 +536,11 @@
     ],
     "esLintConfigFileHandlingType" : 0,
     "esLintECMAVersion" : 7,
-    "esLintEnvironmentsMask" : 1,
+    "esLintEnvironmentsMask" : 8193,
     "esLintRules" : {
       "accessor-pairs" : {
         "active" : 0,
-        "optionString" : "{'setWithoutGet': true, 'getWithoutSet': false, 'enforceForClassMembers': true}"
+        "optionString" : "{'setWithoutGet': true, 'getWithoutSet': false}"
       },
       "array-bracket-newline" : {
         "active" : 0,
@@ -675,7 +587,7 @@
       },
       "camelcase" : {
         "active" : 0,
-        "optionString" : "{'properties': 'always', 'ignoreDestructuring': false, 'ignoreImports': false}"
+        "optionString" : "{'properties': 'always', 'ignoreDestructuring': false}"
       },
       "capitalized-comments" : {
         "active" : 0,
@@ -683,7 +595,7 @@
       },
       "class-methods-use-this" : {
         "active" : 0,
-        "optionString" : "{'exceptMethods': [], 'enforceForClassFields': true}"
+        "optionString" : "{'exceptMethods': []}"
       },
       "comma-dangle" : {
         "active" : 1,
@@ -703,7 +615,7 @@
       },
       "computed-property-spacing" : {
         "active" : 0,
-        "optionString" : "'never', {'enforceForClassMembers': true}"
+        "optionString" : "'never'"
       },
       "consistent-return" : {
         "active" : 0,
@@ -844,7 +756,7 @@
       },
       "max-classes-per-file" : {
         "active" : 0,
-        "optionString" : "{'ignoreExpressions': false, 'max': 1}"
+        "optionString" : "1"
       },
       "max-depth" : {
         "active" : 0,
@@ -938,7 +850,7 @@
         "optionString" : "{'allowParens': true}"
       },
       "no-console" : {
-        "active" : 1,
+        "active" : 0,
         "optionString" : "{'allow': ['warn', 'error']}"
       },
       "no-const-assign" : {
@@ -1024,7 +936,7 @@
       },
       "no-extra-parens" : {
         "active" : 0,
-        "optionString" : "'all', {'conditionalAssign': false, 'returnAssign': false, 'nestedBinaryExpressions': false, 'ignoreJSX': 'none', 'enforceForArrowConditionals': false, 'enforceForSequenceExpressions': false, 'enforceForNewInMemberExpressions': false}"
+        "optionString" : "'all', {'conditionalAssign': false, 'returnAssign': false, 'nestedBinaryExpressions': false, 'ignoreJSX': 'none', 'enforceForArrowConditionals': false}"
       },
       "no-extra-semi" : {
         "active" : 1
@@ -1044,7 +956,7 @@
       },
       "no-implicit-coercion" : {
         "active" : 0,
-        "optionString" : "{'boolean': true, 'number': true, 'string': true, 'disallowTemplateShorthand': false, 'allow': []}"
+        "optionString" : "{'boolean': true, 'number': true, 'string': true, 'allow': []}"
       },
       "no-implicit-globals" : {
         "active" : 0
@@ -1068,7 +980,7 @@
       },
       "no-invalid-this" : {
         "active" : 0,
-        "optionString" : "{'capIsConstructor': true}"
+        "optionString" : ""
       },
       "no-irregular-whitespace" : {
         "active" : 1,
@@ -1098,7 +1010,7 @@
       },
       "no-magic-numbers" : {
         "active" : 0,
-        "optionString" : "{'ignore': [], 'ignoreArrayIndexes': true, 'ignoreDefaultValues': false, 'enforceConst': false, 'detectObjects': false}"
+        "optionString" : "{'ignore': [], 'ignoreArrayIndexes': true, 'enforceConst': false, 'detectObjects': false}"
       },
       "no-misleading-character-class" : {
         "active" : 0
@@ -1117,7 +1029,7 @@
       },
       "no-multi-assign" : {
         "active" : 0,
-        "optionString" : "{'ignoreNonDeclaration': false}"
+        "optionString" : ""
       },
       "no-multi-spaces" : {
         "active" : 0,
@@ -1241,7 +1153,7 @@
       },
       "no-sequences" : {
         "active" : 0,
-        "optionString" : "{'allowInParentheses': true}"
+        "optionString" : ""
       },
       "no-setter-return" : {
         "active" : 1
@@ -1292,7 +1204,7 @@
       },
       "no-underscore-dangle" : {
         "active" : 0,
-        "optionString" : "{'allow': [], 'allowAfterThis': false, 'allowAfterSuper': false, 'allowAfterThisConstructor': false, 'enforceInMethodNames': false, 'allowFunctionParams': true}"
+        "optionString" : "{'allow': [], 'allowAfterThis': false, 'allowAfterSuper': false, 'enforceInMethodNames': false}"
       },
       "no-unexpected-multiline" : {
         "active" : 1
@@ -1316,7 +1228,7 @@
       },
       "no-unsafe-negation" : {
         "active" : 1,
-        "optionString" : "{'enforceForOrderingRelations': false}"
+        "optionString" : ""
       },
       "no-unsafe-optional-chaining" : {
         "active" : 1,
@@ -1324,7 +1236,7 @@
       },
       "no-unused-expressions" : {
         "active" : 0,
-        "optionString" : "{'allowShortCircuit': false, 'allowTernary': false, 'allowTaggedTemplates': false, 'enforceForJSX': false}"
+        "optionString" : "{'allowShortCircuit': false, 'allowTernary': false, 'allowTaggedTemplates': false}"
       },
       "no-unused-labels" : {
         "active" : 1
@@ -1351,7 +1263,7 @@
       },
       "no-useless-computed-key" : {
         "active" : 0,
-        "optionString" : "{'enforceForClassMembers': false}"
+        "optionString" : ""
       },
       "no-useless-concat" : {
         "active" : 0
@@ -1374,7 +1286,7 @@
       },
       "no-void" : {
         "active" : 0,
-        "optionString" : "{'allowAsStatement': false}"
+        "optionString" : ""
       },
       "no-warning-comments" : {
         "active" : 0,
@@ -1486,7 +1398,7 @@
       },
       "require-atomic-updates" : {
         "active" : 0,
-        "optionString" : "{'allowProperties': false}"
+        "optionString" : ""
       },
       "require-await" : {
         "active" : 0
@@ -1519,7 +1431,7 @@
       },
       "sort-imports" : {
         "active" : 0,
-        "optionString" : "{'ignoreCase': false, 'ignoreMemberSort': true, 'memberSyntaxSortOrder': ['none', 'all', 'multiple', 'single'], 'allowSeparatedGroups': false}"
+        "optionString" : "{'ignoreCase': false, 'ignoreMemberSort': true, 'memberSyntaxSortOrder': ['none', 'all', 'multiple', 'single']}"
       },
       "sort-keys" : {
         "active" : 0,
@@ -1578,7 +1490,7 @@
       },
       "use-isnan" : {
         "active" : 1,
-        "optionString" : "{'enforceForSwitchCase': true, 'enforceForIndexOf': false}"
+        "optionString" : ""
       },
       "valid-jsdoc" : {
         "active" : 0,
@@ -1611,7 +1523,7 @@
     "externalServerAddress" : "http:\/\/localhost:8888",
     "gitIgnoreBuildFolder" : 1,
     "hideConfigFile" : 0,
-    "jsCheckerReservedNamesString" : "",
+    "jsCheckerReservedNamesString" : "gsap",
     "languageDefaultsCOFFEE" : {
       "autoOutputAction" : 0,
       "autoOutputPathFilenamePattern" : "*.js",
@@ -1619,7 +1531,7 @@
       "autoOutputPathReplace1" : "",
       "autoOutputPathReplace2" : "",
       "autoOutputPathStyle" : 0,
-      "minifierStyle" : 0,
+      "minifierStyle" : 1,
       "outputStyle" : 0,
       "sourceMapStyle" : 0,
       "transpilerStyle" : 1
@@ -1696,7 +1608,7 @@
       "autoOutputPathReplace1" : "",
       "autoOutputPathReplace2" : "",
       "autoOutputPathStyle" : 0,
-      "orderOutput" : 1,
+      "orderOutput" : 0,
       "outputStyle" : 1
     },
     "languageDefaultsKIT" : {
@@ -1725,7 +1637,7 @@
       "rewriteURLStyle" : 0,
       "shouldRunAutoprefixer" : 0,
       "shouldRunBless" : 0,
-      "sourceMapStyle" : 0,
+      "sourceMapStyle" : 1,
       "strictImports" : 0,
       "strictUnits" : 0
     },
@@ -1781,7 +1693,7 @@
       "autoOutputPathStyle" : 0,
       "compileDebug" : 1,
       "htmlMinifierStyle" : 0,
-      "outputStyle" : 1,
+      "outputStyle" : 0,
       "shouldRunCacheBuster" : 0
     },
     "languageDefaultsSASS" : {
@@ -1791,7 +1703,7 @@
       "autoOutputPathReplace1" : "sass",
       "autoOutputPathReplace2" : "css",
       "autoOutputPathStyle" : 0,
-      "compilerType" : 0,
+      "compilerType" : 1,
       "cssoStyle" : 0,
       "decimalPrecision" : 10,
       "emitCharset" : 1,
