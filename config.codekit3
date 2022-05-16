@@ -9,7 +9,7 @@
   ],
   "creatorBuild" : "34335",
   "files" : {
-    "\/Assignment\/final\/deploy\/css\/styles.css" : {
+    "\/assignment\/final\/deploy\/css\/styles.css" : {
       "aP" : 1,
       "bl" : 0,
       "ci" : 0,
@@ -17,15 +17,15 @@
       "ft" : 16,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/Assignment\/final\/deploy\/css\/styles-min.css",
+      "oAP" : "\/assignment\/final\/deploy\/css\/styles-min.css",
       "oF" : 0,
       "pg" : 0
     },
-    "\/Assignment\/final\/deploy\/img\/article-1.png" : {
+    "\/assignment\/final\/deploy\/img\/article-1.png" : {
       "ft" : 32768,
       "iS" : 121800,
       "oA" : 0,
-      "oAP" : "\/Assignment\/final\/deploy\/img\/article-1.png",
+      "oAP" : "\/assignment\/final\/deploy\/img\/article-1.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -34,11 +34,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/Assignment\/final\/deploy\/img\/article-2.png" : {
+    "\/assignment\/final\/deploy\/img\/article-2.png" : {
       "ft" : 32768,
       "iS" : 120294,
       "oA" : 0,
-      "oAP" : "\/Assignment\/final\/deploy\/img\/article-2.png",
+      "oAP" : "\/assignment\/final\/deploy\/img\/article-2.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -47,11 +47,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/Assignment\/final\/deploy\/img\/article-3.png" : {
+    "\/assignment\/final\/deploy\/img\/article-3.png" : {
       "ft" : 32768,
       "iS" : 132948,
       "oA" : 0,
-      "oAP" : "\/Assignment\/final\/deploy\/img\/article-3.png",
+      "oAP" : "\/assignment\/final\/deploy\/img\/article-3.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -60,11 +60,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/Assignment\/final\/deploy\/img\/article-4.png" : {
+    "\/assignment\/final\/deploy\/img\/article-4.png" : {
       "ft" : 32768,
       "iS" : 121807,
       "oA" : 0,
-      "oAP" : "\/Assignment\/final\/deploy\/img\/article-4.png",
+      "oAP" : "\/assignment\/final\/deploy\/img\/article-4.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -73,11 +73,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/Assignment\/final\/deploy\/img\/article-5.png" : {
+    "\/assignment\/final\/deploy\/img\/article-5.png" : {
       "ft" : 32768,
       "iS" : 93157,
       "oA" : 0,
-      "oAP" : "\/Assignment\/final\/deploy\/img\/article-5.png",
+      "oAP" : "\/assignment\/final\/deploy\/img\/article-5.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -86,11 +86,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/Assignment\/final\/deploy\/img\/collage-1.png" : {
+    "\/assignment\/final\/deploy\/img\/collage-1.png" : {
       "ft" : 32768,
       "iS" : 795700,
       "oA" : 0,
-      "oAP" : "\/Assignment\/final\/deploy\/img\/collage-1.png",
+      "oAP" : "\/assignment\/final\/deploy\/img\/collage-1.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -99,11 +99,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/Assignment\/final\/deploy\/img\/collage-2.png" : {
+    "\/assignment\/final\/deploy\/img\/collage-2.png" : {
       "ft" : 32768,
       "iS" : 289010,
       "oA" : 0,
-      "oAP" : "\/Assignment\/final\/deploy\/img\/collage-2.png",
+      "oAP" : "\/assignment\/final\/deploy\/img\/collage-2.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -112,11 +112,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/Assignment\/final\/deploy\/img\/collage-3.png" : {
+    "\/assignment\/final\/deploy\/img\/collage-3.png" : {
       "ft" : 32768,
       "iS" : 253033,
       "oA" : 0,
-      "oAP" : "\/Assignment\/final\/deploy\/img\/collage-3.png",
+      "oAP" : "\/assignment\/final\/deploy\/img\/collage-3.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -125,12 +125,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/Assignment\/final\/deploy\/img\/cta-1.jpg" : {
+    "\/assignment\/final\/deploy\/img\/cta-1.jpg" : {
       "ft" : 16384,
       "iS" : 12600,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/Assignment\/final\/deploy\/img\/cta-1.jpg",
+      "oAP" : "\/assignment\/final\/deploy\/img\/cta-1.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -138,11 +138,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/Assignment\/final\/deploy\/img\/cta-2.png" : {
+    "\/assignment\/final\/deploy\/img\/cta-2.png" : {
       "ft" : 32768,
       "iS" : 22993,
       "oA" : 0,
-      "oAP" : "\/Assignment\/final\/deploy\/img\/cta-2.png",
+      "oAP" : "\/assignment\/final\/deploy\/img\/cta-2.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -151,12 +151,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/Assignment\/final\/deploy\/img\/hero.jpg" : {
+    "\/assignment\/final\/deploy\/img\/hero.jpg" : {
       "ft" : 16384,
       "iS" : 1349544,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/Assignment\/final\/deploy\/img\/hero.jpg",
+      "oAP" : "\/assignment\/final\/deploy\/img\/hero.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -164,11 +164,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/Assignment\/final\/deploy\/img\/icon-arrow.png" : {
+    "\/assignment\/final\/deploy\/img\/icon-arrow.png" : {
       "ft" : 32768,
       "iS" : 507,
       "oA" : 0,
-      "oAP" : "\/Assignment\/final\/deploy\/img\/icon-arrow.png",
+      "oAP" : "\/assignment\/final\/deploy\/img\/icon-arrow.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -177,11 +177,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/Assignment\/final\/deploy\/img\/icon-phone.png" : {
+    "\/assignment\/final\/deploy\/img\/icon-phone.png" : {
       "ft" : 32768,
       "iS" : 297,
       "oA" : 0,
-      "oAP" : "\/Assignment\/final\/deploy\/img\/icon-phone.png",
+      "oAP" : "\/assignment\/final\/deploy\/img\/icon-phone.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -190,12 +190,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/Assignment\/final\/deploy\/img\/logo.jpg" : {
+    "\/assignment\/final\/deploy\/img\/logo.jpg" : {
       "ft" : 16384,
       "iS" : 11810,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/Assignment\/final\/deploy\/img\/logo.jpg",
+      "oAP" : "\/assignment\/final\/deploy\/img\/logo.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -203,11 +203,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/Assignment\/final\/deploy\/img\/social-1.png" : {
+    "\/assignment\/final\/deploy\/img\/social-1.png" : {
       "ft" : 32768,
       "iS" : 376,
       "oA" : 0,
-      "oAP" : "\/Assignment\/final\/deploy\/img\/social-1.png",
+      "oAP" : "\/assignment\/final\/deploy\/img\/social-1.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -216,11 +216,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/Assignment\/final\/deploy\/img\/social-2.png" : {
+    "\/assignment\/final\/deploy\/img\/social-2.png" : {
       "ft" : 32768,
       "iS" : 417,
       "oA" : 0,
-      "oAP" : "\/Assignment\/final\/deploy\/img\/social-2.png",
+      "oAP" : "\/assignment\/final\/deploy\/img\/social-2.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -229,11 +229,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/Assignment\/final\/deploy\/img\/social-3.png" : {
+    "\/assignment\/final\/deploy\/img\/social-3.png" : {
       "ft" : 32768,
       "iS" : 503,
       "oA" : 0,
-      "oAP" : "\/Assignment\/final\/deploy\/img\/social-3.png",
+      "oAP" : "\/assignment\/final\/deploy\/img\/social-3.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -242,11 +242,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/Assignment\/final\/deploy\/img\/social-4.png" : {
+    "\/assignment\/final\/deploy\/img\/social-4.png" : {
       "ft" : 32768,
       "iS" : 346,
       "oA" : 0,
-      "oAP" : "\/Assignment\/final\/deploy\/img\/social-4.png",
+      "oAP" : "\/assignment\/final\/deploy\/img\/social-4.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -255,21 +255,21 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/Assignment\/final\/deploy\/index.html" : {
+    "\/assignment\/final\/deploy\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/Assignment\/final\/deploy\/index.html",
+      "oAP" : "\/assignment\/final\/deploy\/index.html",
       "oF" : 0
     },
-    "\/Assignment\/final\/deploy\/js\/scripts-min.js" : {
+    "\/assignment\/final\/deploy\/js\/scripts-min.js" : {
       "bF" : 0,
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/Assignment\/final\/deploy\/js\/scripts-min-min.js",
+      "oAP" : "\/assignment\/final\/deploy\/js\/scripts-min-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -282,26 +282,26 @@
       "oAP" : "\/assignment\/final\/dev\/index.html",
       "oF" : 0
     },
-    "\/Assignment\/final\/dev\/index.kit" : {
+    "\/assignment\/final\/dev\/index.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/Assignment\/final\/dev\/index.html",
+      "oAP" : "\/assignment\/final\/dev\/index.html",
       "oF" : 0
     },
-    "\/Assignment\/final\/dev\/js\/scripts.js" : {
+    "\/assignment\/final\/dev\/js\/scripts.js" : {
       "bF" : 0,
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/Assignment\/final\/dev\/js\/scripts-min.js",
+      "oAP" : "\/assignment\/final\/dev\/js\/scripts-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
     },
-    "\/Assignment\/final\/dev\/scss\/base\/_base.scss" : {
+    "\/assignment\/final\/dev\/scss\/base\/_base.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -310,13 +310,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/Assignment\/final\/dev\/scss\/base\/_base.css",
+      "oAP" : "\/assignment\/final\/dev\/scss\/base\/_base.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/Assignment\/final\/dev\/scss\/base\/_normalize.scss" : {
+    "\/assignment\/final\/dev\/scss\/base\/_normalize.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -325,13 +325,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/Assignment\/final\/dev\/scss\/base\/_normalize.css",
+      "oAP" : "\/assignment\/final\/dev\/scss\/base\/_normalize.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/Assignment\/final\/dev\/scss\/base\/_typography.scss" : {
+    "\/assignment\/final\/dev\/scss\/base\/_typography.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -340,13 +340,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/Assignment\/final\/dev\/scss\/base\/_typography.css",
+      "oAP" : "\/assignment\/final\/dev\/scss\/base\/_typography.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/Assignment\/final\/dev\/scss\/components\/_buttons.scss" : {
+    "\/assignment\/final\/dev\/scss\/components\/_buttons.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -355,13 +355,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/Assignment\/final\/dev\/scss\/components\/_buttons.css",
+      "oAP" : "\/assignment\/final\/dev\/scss\/components\/_buttons.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/Assignment\/final\/dev\/scss\/components\/_footer.scss" : {
+    "\/assignment\/final\/dev\/scss\/components\/_footer.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -370,13 +370,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/Assignment\/final\/dev\/scss\/components\/_footer.css",
+      "oAP" : "\/assignment\/final\/dev\/scss\/components\/_footer.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/Assignment\/final\/dev\/scss\/components\/_forms.scss" : {
+    "\/assignment\/final\/dev\/scss\/components\/_forms.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -385,13 +385,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/Assignment\/final\/dev\/scss\/components\/_forms.css",
+      "oAP" : "\/assignment\/final\/dev\/scss\/components\/_forms.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/Assignment\/final\/dev\/scss\/components\/_header.scss" : {
+    "\/assignment\/final\/dev\/scss\/components\/_header.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -400,13 +400,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/Assignment\/final\/dev\/scss\/components\/_header.css",
+      "oAP" : "\/assignment\/final\/dev\/scss\/components\/_header.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/Assignment\/final\/dev\/scss\/components\/_hero.scss" : {
+    "\/assignment\/final\/dev\/scss\/components\/_hero.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -415,13 +415,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/Assignment\/final\/dev\/scss\/components\/_hero.css",
+      "oAP" : "\/assignment\/final\/dev\/scss\/components\/_hero.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/Assignment\/final\/dev\/scss\/components\/_main-content.scss" : {
+    "\/assignment\/final\/dev\/scss\/components\/_main-content.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -430,13 +430,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/Assignment\/final\/dev\/scss\/components\/_main-content.css",
+      "oAP" : "\/assignment\/final\/dev\/scss\/components\/_main-content.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/Assignment\/final\/dev\/scss\/components\/_navigation.scss" : {
+    "\/assignment\/final\/dev\/scss\/components\/_navigation.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -445,13 +445,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/Assignment\/final\/dev\/scss\/components\/_navigation.css",
+      "oAP" : "\/assignment\/final\/dev\/scss\/components\/_navigation.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/Assignment\/final\/dev\/scss\/helpers\/_mixins.scss" : {
+    "\/assignment\/final\/dev\/scss\/helpers\/_mixins.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -460,13 +460,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/Assignment\/final\/dev\/scss\/helpers\/_mixins.css",
+      "oAP" : "\/assignment\/final\/dev\/scss\/helpers\/_mixins.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/Assignment\/final\/dev\/scss\/helpers\/_variables.scss" : {
+    "\/assignment\/final\/dev\/scss\/helpers\/_variables.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -475,13 +475,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/Assignment\/final\/dev\/scss\/helpers\/_variables.css",
+      "oAP" : "\/assignment\/final\/dev\/scss\/helpers\/_variables.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/Assignment\/final\/dev\/scss\/styles.scss" : {
+    "\/assignment\/final\/dev\/scss\/styles.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -490,7 +490,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/Assignment\/final\/dev\/scss\/styles.css",
+      "oAP" : "\/assignment\/final\/dev\/scss\/styles.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
