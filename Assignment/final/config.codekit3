@@ -203,6 +203,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/logo.png" : {
+      "ft" : 32768,
+      "iS" : 3633,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/logo.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/social-1.png" : {
       "ft" : 32768,
       "iS" : 376,
@@ -273,6 +286,14 @@
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
+    },
+    "\/dev\/components\/header.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/components\/header.html",
+      "oF" : 0
     },
     "\/dev\/index.html" : {
       "cB" : 0,

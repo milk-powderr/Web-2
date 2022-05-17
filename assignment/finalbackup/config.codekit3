@@ -274,6 +274,14 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/dev\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/index.html",
+      "oF" : 0
+    },
     "\/dev\/index.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -497,7 +505,7 @@
   },
   "projectAttributes" : {
     "creationDate" : 607448965.33801401,
-    "displayValue" : "final-starter",
+    "displayValue" : "final",
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "brackets-forest",
     "iconImageWasSetByUser" : 0
