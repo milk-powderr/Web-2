@@ -203,6 +203,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/assignment\/final\/deploy\/img\/Logo.png" : {
+      "ft" : 32768,
+      "iS" : 2373,
+      "oA" : 0,
+      "oAP" : "\/assignment\/final\/deploy\/img\/Logo.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/assignment\/final\/deploy\/img\/social-1.png" : {
       "ft" : 32768,
       "iS" : 376,
@@ -451,6 +464,22 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/assignment\/final\/dev\/scss\/components\/header.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assignment\/final\/dev\/scss\/components\/header.html",
+      "oF" : 0
+    },
+    "\/assignment\/final\/dev\/scss\/components\/header.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/assignment\/final\/dev\/scss\/components\/header.html",
+      "oF" : 0
+    },
     "\/assignment\/final\/dev\/scss\/helpers\/_mixins.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -480,6 +509,18 @@
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
+    },
+    "\/assignment\/final\/dev\/scss\/styles.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/assignment\/final\/dev\/scss\/styles-min.css",
+      "oF" : 0,
+      "pg" : 0
     },
     "\/assignment\/final\/dev\/scss\/styles.scss" : {
       "aP" : 0,
