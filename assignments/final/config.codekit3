@@ -190,6 +190,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/lines.png" : {
+      "ft" : 32768,
+      "iS" : 211,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/lines.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/logo.jpg" : {
       "ft" : 16384,
       "iS" : 11810,
@@ -209,8 +222,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/img\/logo.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -223,6 +236,19 @@
       "oA" : 0,
       "oAP" : "\/deploy\/img\/peace.ico",
       "oF" : 0
+    },
+    "\/deploy\/img\/room.png" : {
+      "ft" : 32768,
+      "iS" : 123640,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/room.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/deploy\/img\/social-1.png" : {
       "ft" : 32768,
@@ -295,12 +321,36 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/dev\/components\/article-grid.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/components\/article-grid.html",
+      "oF" : 0
+    },
     "\/dev\/components\/header.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/components\/header.html",
+      "oF" : 0
+    },
+    "\/dev\/components\/hero.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/components\/hero.html",
+      "oF" : 0
+    },
+    "\/dev\/components\/sub-header.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/components\/sub-header.html",
       "oF" : 0
     },
     "\/dev\/index.kit" : {
@@ -362,6 +412,21 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/base\/_typography.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 1
+    },
+    "\/dev\/scss\/components\/_article-grid.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/components\/_article-grid.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
@@ -467,6 +532,21 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/components\/_navigation.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 1
+    },
+    "\/dev\/scss\/components\/_sub-header.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/components\/_sub-header.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,

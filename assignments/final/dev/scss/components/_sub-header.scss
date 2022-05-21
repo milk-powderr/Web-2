@@ -1,15 +1,15 @@
-.header {
-    padding-top: 66px; padding-left: 16px; padding-right: 17px;
+.sub-header {
+    padding-top: 40px; padding-left: 16px; padding-right: 309px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.header__logo {
-    width: 120px;
+.sub-header__logo {
+    width: 23px;
 }
 
-.header__link {
+.sub-header__link {
     color: $black;
     font-size: 14px;
     text-decoration: none;

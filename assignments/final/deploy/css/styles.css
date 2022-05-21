@@ -303,5 +303,38 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0; }
 
 .header {
-  background: #803841;
-  padding: 16px; }
+  padding-top: 66px;
+  padding-left: 16px;
+  padding-right: 17px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.header__logo {
+  width: 120px; }
+
+.header__link {
+  color: #000000;
+  font-size: 14px;
+  text-decoration: none; }
+  @media (min-width: 768px) {
+    .header__link {
+      font-size: 16px; } }
+.sub-header {
+  padding-top: 40px;
+  padding-left: 16px;
+  padding-right: 309px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.sub-header__logo {
+  width: 23px; }
+
+.sub-header__link {
+  color: #000000;
+  font-size: 14px;
+  text-decoration: none; }
+  @media (min-width: 768px) {
+    .sub-header__link {
+      font-size: 16px; } }
