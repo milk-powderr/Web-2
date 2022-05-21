@@ -216,6 +216,14 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/peace.ico" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/peace.ico",
+      "oF" : 0
+    },
     "\/deploy\/img\/social-1.png" : {
       "ft" : 32768,
       "iS" : 376,
