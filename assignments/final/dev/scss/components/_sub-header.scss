@@ -1,19 +1,38 @@
 .sub-header {
-    padding-top: 40px; padding-left: 16px; padding-right: 309px;
+    padding-top: 17px; padding-left: 20px; padding-right: 486px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    @include md {
+        padding-top: 0px; padding-left: 659px; padding-right: 33px;
+    }
+    @include lg {
+        padding-top: 0px; padding-left: 1680px; padding-right: 17px;
+    }
 }
 
 .sub-header__logo {
     width: 23px;
+    @include md {
+        width: 25px;
+    }
+    @include lg {
+        width: 29px;
+    }
 }
 
 .sub-header__link {
     color: $black;
-    font-size: 14px;
+    font-size: 16px;
     text-decoration: none;
+    margin: 17px;
     @include md {
-        font-size: 16px;
+        font-size: 18px;
+        margin: 33px;
+    }
+    @include lg {
+        font-size: 20px;
+        margin: 38px;
+        padding-bottom: 1px;
     }
 }

@@ -229,6 +229,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/mission.png" : {
+      "ft" : 32768,
+      "iS" : 573526,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/mission.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/peace.ico" : {
       "cB" : 0,
       "ft" : 8192,
@@ -246,6 +259,19 @@
       "oIPL" : 0,
       "opt" : 0,
       "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/Section.jpg" : {
+      "ft" : 16384,
+      "iS" : 6480,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Section.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75

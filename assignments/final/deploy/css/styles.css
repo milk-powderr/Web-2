@@ -309,32 +309,78 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   justify-content: space-between;
   align-items: center; }
-
+  @media (min-width: 768px) {
+    .header {
+      padding-top: 19px;
+      padding-left: 16px;
+      padding-right: 17px; } }
+  @media (min-width: 992px) {
+    .header {
+      padding-top: 8.9px;
+      padding-left: 16px;
+      padding-right: 17px; } }
 .header__logo {
-  width: 120px; }
-
+  width: 130px; }
+  @media (min-width: 768px) {
+    .header__logo {
+      width: 260px; } }
+  @media (min-width: 992px) {
+    .header__logo {
+      width: 317px; } }
 .header__link {
   color: #000000;
   font-size: 14px;
   text-decoration: none; }
+  .header__link:hover {
+    opacity: 0.5; }
   @media (min-width: 768px) {
     .header__link {
       font-size: 16px; } }
+  @media (min-width: 992px) {
+    .header__link {
+      font-size: 29.25px; } }
 .sub-header {
-  padding-top: 40px;
-  padding-left: 16px;
-  padding-right: 309px;
+  padding-top: 17px;
+  padding-left: 20px;
+  padding-right: 486px;
   display: flex;
   justify-content: space-between;
   align-items: center; }
-
+  @media (min-width: 768px) {
+    .sub-header {
+      padding-top: 0px;
+      padding-left: 659px;
+      padding-right: 33px; } }
+  @media (min-width: 992px) {
+    .sub-header {
+      padding-top: 0px;
+      padding-left: 1680px;
+      padding-right: 17px; } }
 .sub-header__logo {
   width: 23px; }
-
+  @media (min-width: 768px) {
+    .sub-header__logo {
+      width: 25px; } }
+  @media (min-width: 992px) {
+    .sub-header__logo {
+      width: 29px; } }
 .sub-header__link {
   color: #000000;
-  font-size: 14px;
-  text-decoration: none; }
+  font-size: 16px;
+  text-decoration: none;
+  margin: 17px; }
   @media (min-width: 768px) {
     .sub-header__link {
-      font-size: 16px; } }
+      font-size: 18px;
+      margin: 33px; } }
+  @media (min-width: 992px) {
+    .sub-header__link {
+      font-size: 20px;
+      margin: 38px;
+      padding-bottom: 1px; } }
+.hero {
+  background-image: url("../img/section.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 567px;
+  width: 567px; }
