@@ -1,27 +1,33 @@
 .article-block__section {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 45px;
+    padding-bottom: 146px;
     @include md {
-        padding-top: 50px;
-        padding-bottom: 50px;
+        padding-top: 52px;
+        padding-bottom: 112px;
     }
     @include lg {
-        padding-top: 50px;
-        padding-bottom: 50px;
+        padding-top: 71px;
+        padding-bottom: 146px;
     } 
 }
 
 .article-block__title {
+    background-color: purple;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 32px;
     text-align: center;
-    color: $word-purple;
-    padding-bottom: 50px;
+    color: $white;
+    padding-bottom: 12px;
+    padding-top: 12px;
     @include md {
         font-size: 40px;
         line-height: 48px;
+    }
+    @include lg {
+        font-size: 70px;
+        line-height: 77px;
     }
 }
 
@@ -39,12 +45,36 @@
     } 
 }
 
-.article-block {
+.article-block1 {
     display: flex;
     background-color: $light-purple;
     box-shadow: 0 1px 1px rgba(42, 48, 54, 0.3);
-    width: 576px;
+    width: 311px;
+    padding-top: 22px; padding-bottom: 22px; padding-left: 12px; padding-right: 19px;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 17px;
+    margin-bottom: 29px;
+}
+
+.article-block2 {
+    display: flex;
+    background-color: $light-purple;
+    box-shadow: 0 1px 1px rgba(42, 48, 54, 0.3);
+    width: 311px;
     padding-top: 22px; padding-bottom: 22px; padding-left: 76px;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 17px;
+    margin-bottom: 29px;
+}
+
+.article-block3 {
+    display: flex;
+    background-color: $light-purple;
+    box-shadow: 0 1px 1px rgba(42, 48, 54, 0.3);
+    width: 311px;
+    padding-top: 22px; padding-bottom: 22px; padding-left: 12px; padding-right: 19px;
     justify-content: space-between;
     align-items: center;
     margin-right: 17px;
@@ -64,8 +94,20 @@
     vertical-align: Top;
     text-decoration: none;
     text-align: center;
+    padding-right: 15px;
 }
 
-.article-block__image {
-    padding-left: 0px;
+.article-block1__image {
+    height: 156px;
+    width: 170px;
+}
+
+.article-block2__image {
+    height: 156px;
+    width: 170px;
+}
+
+.article-block3__image {
+    height: 156px;
+    width: 170px;
 }
