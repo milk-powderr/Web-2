@@ -1,8 +1,22 @@
+.article-block__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: $word-purple;
+    @include md {
+        font-size: 40px;
+        line-height: 48px;
+    }
+}
+
 .article-block__grid {
     display: flex;
     flex-direction: column;
     @include md {
         flex-direction: row;
+        justify-content: center;
         flex-wrap: wrap;
     }
     @include lg {
@@ -35,6 +49,7 @@
     align-items: Center;
     vertical-align: Top;
     text-decoration: none;
+    text-align: center;
 }
 
 .article-block__image {
