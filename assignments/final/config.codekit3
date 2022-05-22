@@ -86,6 +86,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/camera.png" : {
+      "ft" : 32768,
+      "iS" : 24573,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/camera.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/collage-1.png" : {
       "ft" : 32768,
       "iS" : 795700,
@@ -333,6 +346,19 @@
       "iS" : 346,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/social-4.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/truck.png" : {
+      "ft" : 32768,
+      "iS" : 22521,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/truck.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
