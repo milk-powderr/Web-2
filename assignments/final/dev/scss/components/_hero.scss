@@ -17,23 +17,23 @@
 }
 
 .hero__heading {
-    color: $red;
-    font-size: 22px;
+    color: $white;
+    font-size: 28px;
     @include md {
-        font-size: 27px;
+        font-size: 33px;
     }
     @include lg {
-        font-size: 32px;
+        font-size: 38px;
     }
 }
 
 .hero__button {
-    color: $purple;
+    color: $white;
     align-content: center;
     display: block;
     margin-top: 5px;
     text-decoration: none;
-    background-color: $blue;
+    background-color: $purple;
     padding: 10px 30px;
     width: fit-content;
 }

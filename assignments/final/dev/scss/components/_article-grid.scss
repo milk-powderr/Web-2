@@ -1,0 +1,18 @@
+.article-block {
+    background-color: $light-purple;
+    box-shadow: 0 1px 1px rgba(42, 48, 54, 0.3);
+    width: 320px;
+}
+
+.article-block__wrapper {
+    padding: 15px;
+}
+
+.article-block__body {
+    font-style: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 21px;
+    line-height: 108%;
+    align-items: Center;
+    vertical-align: Top;
+}
