@@ -376,11 +376,38 @@ h1, h2, h3, h4, h5, h6 {
   @media (min-width: 992px) {
     .sub-header__link {
       font-size: 20px;
-      margin: 38px;
-      padding-bottom: 1px; } }
+      margin: 38px; } }
 .hero {
-  background-image: url("../img/section.jpg");
+  background-image: url("../img/mission.jpg");
   background-position: center;
   background-size: cover;
-  height: 567px;
-  width: 567px; }
+  height: 262px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center; }
+  @media (min-width: 768px) {
+    .hero {
+      height: 515px; } }
+  @media (min-width: 992px) {
+    .hero {
+      height: 686px; } }
+.hero__heading {
+  color: #F71735;
+  font-size: 22px; }
+  @media (min-width: 768px) {
+    .hero__heading {
+      font-size: 27px; } }
+  @media (min-width: 992px) {
+    .hero__heading {
+      font-size: 32px; } }
+.hero__button {
+  color: #803841;
+  align-content: center;
+  display: block;
+  margin-top: 5px;
+  text-decoration: none;
+  background-color: #006494;
+  padding: 10px 30px;
+  width: fit-content; }

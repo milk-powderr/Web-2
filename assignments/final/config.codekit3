@@ -229,6 +229,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/mission.jpg" : {
+      "ft" : 16384,
+      "iS" : 408292,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/mission.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/mission.png" : {
       "ft" : 32768,
       "iS" : 573526,
