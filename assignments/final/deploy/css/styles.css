@@ -709,11 +709,13 @@ h1, h2, h3, h4, h5, h6 {
 .events-block__image {
   padding-bottom: 27px;
   margin-left: 34px;
+  margin-right: 34px;
   justify-content: space-between;
   display: flex; }
   @media (min-width: 768px) {
     .events-block__image {
-      padding: 30px; } }
+      vertical-align: auto;
+      padding-bottom: 16px; } }
   @media (min-width: 992px) {
     .events-block__image {
       padding: 30px; } }
@@ -732,6 +734,7 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center; }
   @media (min-width: 768px) {
     .events-block__body {
+      text-align: left;
       font-size: 21px; } }
   @media (min-width: 992px) {
     .events-block__body {
