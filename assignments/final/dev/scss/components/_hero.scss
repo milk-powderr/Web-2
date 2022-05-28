@@ -30,11 +30,15 @@
 .hero__button {
     color: $white;
     align-content: center;
-    display: block;
+    display: inline-block;
     margin-top: 5px;
     text-decoration: none;
     background-color: $purple;
     padding: 10px 30px;
     border-radius: 8px;
     width: fit-content;
+}
+
+.hero_inner {
+    text-align: center;
 }
