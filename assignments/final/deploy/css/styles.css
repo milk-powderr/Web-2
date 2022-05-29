@@ -726,14 +726,12 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
   font-size: 20px;
   line-height: 21px;
-  align-items: Center;
   vertical-align: Top;
   text-decoration: none;
   text-align: center;
   padding-right: 15px;
   display: flex;
-  align-items: center;
-  text-align: center; }
+  align-items: center; }
   @media (min-width: 768px) {
     .events-block__body {
       text-align: left;
@@ -741,6 +739,44 @@ h1, h2, h3, h4, h5, h6 {
   @media (min-width: 992px) {
     .events-block__body {
       font-size: 22px; } }
+.date-block__section {
+  padding-bottom: 146px; }
+  @media (min-width: 768px) {
+    .date-block__section {
+      padding-bottom: 112px; } }
+  @media (min-width: 992px) {
+    .date-block__section {
+      padding-bottom: 146px; } }
+.date-block__title {
+  background-color: purple;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #FFFFFF;
+  padding-bottom: 12px;
+  padding-top: 12px; }
+  @media (min-width: 768px) {
+    .date-block__title {
+      font-size: 40px;
+      line-height: 48px; } }
+  @media (min-width: 992px) {
+    .date-block__title {
+      font-size: 70px;
+      line-height: 77px; } }
+.date-block__grid {
+  display: flex;
+  align-items: center;
+  flex-direction: column; }
+
+.date-block__image {
+  padding-top: 64px;
+  margin-left: 16px;
+  margin-right: 16px;
+  width: 358px;
+  height: 353.41px; }
+
 .footer-block {
   background-color: purple;
   font-style: normal;

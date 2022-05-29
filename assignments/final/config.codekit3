@@ -112,6 +112,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/carousel.png" : {
+      "ft" : 32768,
+      "iS" : 1717,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/carousel.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/collage-1.png" : {
       "ft" : 32768,
       "iS" : 795700,
@@ -494,6 +507,14 @@
       "oAP" : "\/dev\/components\/listings.html",
       "oF" : 0
     },
+    "\/dev\/components\/mission.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/components\/mission.html",
+      "oF" : 0
+    },
     "\/dev\/components\/sub-header.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -711,6 +732,21 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/components\/_main-content.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 1
+    },
+    "\/dev\/scss\/components\/_mission.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/components\/_mission.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,

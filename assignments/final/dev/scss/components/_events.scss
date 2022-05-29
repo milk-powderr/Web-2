@@ -63,14 +63,12 @@
     font-weight: bold;
     font-size: 20px;
     line-height: 21px;
-    align-items: Center;
     vertical-align: Top;
     text-decoration: none;
     text-align: center;
     padding-right: 15px;
     display: flex;
     align-items: center;
-    text-align: center;
     @include md {
         text-align: left;
         font-size: 21px;
