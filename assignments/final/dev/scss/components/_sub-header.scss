@@ -1,15 +1,14 @@
 .sub-header {
-    padding-top: 17px; padding-left: 20px; padding-right: 40px;
+    padding-top: 17px; padding-left: 20px; padding-right: 40px; padding-bottom: 12px;
     display: flex;
     align-items: center;
     @include md {
         padding-top:0px;
-        margin-: auto;
+        margin: auto;
     }
     @include lg {
         padding-top: 0px;
     }
-
 }
 
 .sub-header__logo {
