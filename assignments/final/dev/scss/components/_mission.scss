@@ -1,7 +1,9 @@
 .mission-block__section {
+    padding-top: 146px;
     padding-bottom: 65px;
     @include md {
         padding-bottom: 112px;
+        padding-top: 86px;
     }
     @include lg {
         padding-bottom: 146px;
@@ -9,7 +11,7 @@
 }
 
 .mission-block__title {
-    background-color: purple;
+    background-color: $purple;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -35,10 +37,24 @@
 }
 
 .mission-block__image {
+    margin-right: 30px;
     padding-top: 64px;
     padding-bottom: 14px;
+    @include md {
+        margin-right: 108px;
+    }
+}
+
+.mission__image {
     margin-left: 16px;
-    margin-right: 16px;   
+    width: 100%;
+    border: 2px solid $black;
+    border-radius: 8px;
+    @include md {
+        margin-left: 101px;
+
+        width: 630px;
+    }
 }
 
 .mission-block__dots {
@@ -46,7 +62,7 @@
 }
 
 .mission-block__subtitle {
-    background-color: purple;
+    background-color: $purple;
     font-weight: 700;
     font-size: 15.893px;
     font-style: normal;
@@ -55,7 +71,13 @@
     align-self: flex-start;
     width: 192px;
     height: 34px;
-    padding-left: 21px;   
+    padding-left: 21px;
+    @include md {
+        padding-left: 150px;
+        width: 356px;
+        font-size: 20px;
+        height: 38px;
+    }
 }
 
 .mission-block__body {
@@ -65,4 +87,8 @@
     font-size: 15.893px;
     line-height: 21px;
     justify-content: space-between;
+    @include md {
+        padding-left: 119px; padding-right: 119px;
+        font-size: 16px;
+    }
 }

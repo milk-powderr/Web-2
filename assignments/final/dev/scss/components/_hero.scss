@@ -17,7 +17,7 @@
 }
 
 .hero__heading {
-    color: $white;
+    color: $purple;
     font-size: 28px;
     @include md {
         font-size: 33px;
@@ -28,12 +28,12 @@
 }
 
 .hero__button {
-    color: $white;
+    color: $purple;
     align-content: center;
     display: inline-block;
     margin-top: 5px;
     text-decoration: none;
-    background-color: $purple;
+    background-color: $yellow;
     padding: 10px 30px;
     border-radius: 8px;
     width: fit-content;

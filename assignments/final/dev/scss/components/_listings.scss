@@ -9,7 +9,7 @@
 }
 
 .listings-block__title {
-    background-color: purple;
+    background-color: $purple;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -30,10 +30,10 @@
 }
 
 .listings-block__grid {
-    padding-left: 16px; 
+    padding-left: 16px;
 }
 
-.listings-block__body {
+.listings__body {
     font-weight: 400;
     font-size: 16px;
     align-items: center;
@@ -41,8 +41,6 @@
     text-decoration: none;   
     margin-left: 16px;
     font-style: normal;
-    line-height: 24px;
-
 }
 
 .listings__button {
@@ -51,12 +49,12 @@
     margin-left: auto;
     flex-direction: column;
     display: flex;
-    align-self: flex-end;
     text-decoration: none;
     background-color: $yellow;
     padding: 8px 16px;
-    width: fit-content;
+    width: 179px;
     border-radius: 8px;
+    align-items: center;
 }
 
 .listings-row {

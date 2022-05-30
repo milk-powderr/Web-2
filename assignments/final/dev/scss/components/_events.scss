@@ -1,7 +1,7 @@
 .events-block__section {
     padding-bottom: 146px;
     @include md {
-        padding-bottom: 112px;
+        display: none;
     }
     @include lg {
         padding-bottom: 146px;
@@ -24,7 +24,7 @@
 }
 
 .events-block__title {
-    background-color: purple;
+    background-color: $purple;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -59,7 +59,7 @@
 }
 
 .events-block__body {
-    color: $word-purple;
+    color: $purple;
     font-weight: bold;
     font-size: 20px;
     line-height: 21px;
@@ -76,4 +76,22 @@
     @include lg {
         font-size: 22px;
     }
+}
+
+.events-block1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.events-block2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.events-block3 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
