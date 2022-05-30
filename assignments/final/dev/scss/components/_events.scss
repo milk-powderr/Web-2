@@ -12,6 +12,8 @@
     padding-top: 64px;
     display: flex;
     flex-direction: row;
+    margin-left: 8.46%;
+    margin-right: 8.46%;
     @include md {
         flex-direction: column;
         justify-content: center;
@@ -70,8 +72,7 @@
     display: flex;
     align-items: center;
     @include md {
-        text-align: left;
-        font-size: 21px;
+        display: none;
     }
     @include lg {
         font-size: 22px;
