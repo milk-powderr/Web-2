@@ -112,19 +112,6 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/carousel.png" : {
-      "ft" : 32768,
-      "iS" : 1717,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/carousel.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
     "\/deploy\/img\/collage-1.png" : {
       "ft" : 32768,
       "iS" : 795700,
@@ -185,6 +172,19 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/Dots.png" : {
+      "ft" : 32768,
+      "iS" : 421,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Dots.png",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -296,7 +296,7 @@
     },
     "\/deploy\/img\/mission.png" : {
       "ft" : 32768,
-      "iS" : 573526,
+      "iS" : 589117,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/mission.png",
       "oF" : 0,
@@ -340,6 +340,16 @@
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
+    },
+    "\/deploy\/img\/search.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/search.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
     },
     "\/deploy\/img\/Section.jpg" : {
       "ft" : 16384,
@@ -513,6 +523,14 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/components\/mission.html",
+      "oF" : 0
+    },
+    "\/dev\/components\/search-bar.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/components\/search-bar.html",
       "oF" : 0
     },
     "\/dev\/components\/sub-header.kit" : {
@@ -762,6 +780,21 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/components\/_navigation.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 1
+    },
+    "\/dev\/scss\/components\/_search-bar.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/components\/_search-bar.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,

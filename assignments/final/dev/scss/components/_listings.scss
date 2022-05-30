@@ -29,6 +29,9 @@
     }
 }
 
+.listings-block__grid {
+    padding-left: 16px; 
+}
 
 .listings-block__body {
     font-weight: 400;
@@ -45,10 +48,10 @@
 .listings__button {
     color: $purple;
     margin-right: 16px;
+    margin-left: auto;
     flex-direction: column;
     display: flex;
-    justify-content: flex-end;
-    margin-top: 0px;
+    align-self: flex-end;
     text-decoration: none;
     background-color: $yellow;
     padding: 8px 16px;
