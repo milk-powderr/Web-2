@@ -104,18 +104,22 @@
         font-weight: bold;
         font-size: 16px;
         line-height: 21px;
-        align-items: center;
         vertical-align: Top;
         text-decoration: none;
         text-align: center;
         padding-right: 15px;
         justify-content: center;
-        flex-direction: column;
+    }
+}
+
+.date-extra-block1 {
+    @include md {
+        align-items: center;
+        flex-direction: row;
         display: flex;
-        flex-wrap: wrap;
     }
 }
 
 .date-extra-block__image {
-    margin-left: 116px;
+    margin-left: 11px;
 }

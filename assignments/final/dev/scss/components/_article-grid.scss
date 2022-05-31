@@ -123,6 +123,7 @@
     padding-right: 15px;
     @include md {
         font-size: 21px;
+        order: 2;
     }
     @include lg {
         font-size: 22px;

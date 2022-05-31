@@ -31,6 +31,9 @@
 
 .listings-block__grid {
     padding-left: 16px;
+    @include md {
+        padding-left: 0%;
+    }
 }
 
 .listings__body {
@@ -41,6 +44,9 @@
     text-decoration: none;   
     margin-left: 16px;
     font-style: normal;
+    @include md {
+        align-items: flex-start;
+    }
 }
 
 .listings__button {
@@ -60,4 +66,8 @@
 .listings-row {
     display: flex;
     align-items: center;
+    @include md {
+        flex-direction: column;
+        margin-left: auto;
+    }
 }
