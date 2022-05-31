@@ -714,8 +714,9 @@ h1, h2, h3, h4, h5, h6 {
   padding-top: 64px;
   display: flex;
   flex-direction: row;
-  margin-left: 8.46%;
-  margin-right: 8.46%; }
+  margin-left: 4%;
+  margin-right: 4%;
+  justify-content: space-between; }
   @media (min-width: 768px) {
     .events-block__grid {
       flex-direction: column;
@@ -891,8 +892,23 @@ h1, h2, h3, h4, h5, h6 {
     flex-direction: row;
     display: flex; } }
 
-.date-extra-block__image {
-  margin-left: 11px; }
+@media (min-width: 768px) {
+  .date-extra-block2 {
+    align-items: center;
+    flex-direction: row;
+    display: flex; } }
+
+@media (min-width: 768px) {
+  .date-extra-block3 {
+    align-items: center;
+    flex-direction: row;
+    display: flex; } }
+
+@media (min-width: 768px) {
+  .date-extra-block__image {
+    margin-left: 11px;
+    padding-bottom: 12px;
+    padding-right: 54px; } }
 
 .mission-block__section {
   padding-top: 146px;

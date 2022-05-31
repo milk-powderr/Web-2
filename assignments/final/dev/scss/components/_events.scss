@@ -12,8 +12,9 @@
     padding-top: 64px;
     display: flex;
     flex-direction: row;
-    margin-left: 8.46%;
-    margin-right: 8.46%;
+    margin-left: 4%;
+    margin-right: 4%;
+    justify-content: space-between;
     @include md {
         flex-direction: column;
         justify-content: center;

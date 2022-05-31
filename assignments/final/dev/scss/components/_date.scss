@@ -98,7 +98,6 @@
 }
 
 .date-extra-block__body {
-
     @include md {
         color: $purple;
         font-weight: bold;
@@ -120,6 +119,25 @@
     }
 }
 
+.date-extra-block2 {
+    @include md {
+        align-items: center;
+        flex-direction: row;
+        display: flex;
+    }
+}
+
+.date-extra-block3 {
+    @include md {
+        align-items: center;
+        flex-direction: row;
+        display: flex;
+    }
+}
+
 .date-extra-block__image {
+    @include md {
     margin-left: 11px;
+    padding-bottom: 12px; padding-right: 54px;
+}
 }
