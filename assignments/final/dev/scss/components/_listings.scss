@@ -32,7 +32,7 @@
 .listings-block__grid {
     padding-left: 16px;
     @include md {
-        padding-left: 0%;
+
     }
 }
 
@@ -44,8 +44,12 @@
     text-decoration: none;   
     margin-left: 16px;
     font-style: normal;
+    color: $purple;
     @include md {
         align-items: flex-start;
+        margin-left: 0%;
+        width: 179px;
+        
     }
 }
 
@@ -64,10 +68,83 @@
 }
 
 .listings-row {
+    align-items: center;
+    flex-direction: column;
+    @include md {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
+
+.listings1-row {
     display: flex;
     align-items: center;
     @include md {
         flex-direction: column;
-        margin-left: auto;
+        padding-right: 1.918%;
+    }
+}
+
+.listings2-row {
+    display: flex;
+    align-items: center;
+    @include md {
+        flex-direction: column;
+        padding-right: 1.918%;
+    }
+}
+
+.listings3-row {
+    display: flex;
+    align-items: center;
+    @include md {
+        flex-direction: column;
+        padding-right: 1.918%;
+    }
+}
+
+.listings4-row {
+    display: flex;
+    align-items: center;
+    @include md {
+        flex-direction: column;
+        padding-right: 1.918%;
+    }
+}
+
+.listings5-row {
+    display: flex;
+    align-items: center;
+    @include md {
+        flex-direction: column;
+        padding-right: 1.918%;
+    }
+}
+
+.listings6-row {
+    display: flex;
+    align-items: center;
+    @include md {
+        flex-direction: column;
+        padding-right: 1.918%;
+    }
+}
+
+.listings7-row {
+    display: flex;
+    align-items: center;
+    @include md {
+        flex-direction: column;
+        padding-right: 1.918%;
+    }
+}
+
+.listings8-row {
+    display: flex;
+    align-items: center;
+    @include md {
+        flex-direction: column;
+        padding-right: 1.918%;
     }
 }
