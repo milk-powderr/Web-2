@@ -12,9 +12,8 @@
 
 .sub-header__logo {
     width: 23px;
-    grid-area: auto;
     @include md {
-        width: 25px;
+        width: 29px;
     }
     @include lg {
         width: 29px;

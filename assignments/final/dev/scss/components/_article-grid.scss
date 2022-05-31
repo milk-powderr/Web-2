@@ -61,9 +61,10 @@
         margin-right: 0%;
     }
     @include lg {
-        padding-top: 22px; padding-bottom: 22px; padding-left: px; padding-right: 19px;
+        padding-top: 22px; padding-bottom: 22px; padding-right: 19px;
         width: 387px;
-        height: 288px;  
+        height: 288px;
+        margin-left: 6.1%;
     }
 }
 
@@ -79,8 +80,7 @@
     align-self: flex-end;
     @include md {
         width: 162px;
-        height: 230px;
-        align-self: auto;  
+        height: 230px;  
         flex-direction: column;
         padding-left: 0px;
     }
@@ -110,11 +110,8 @@
         padding-top: 22px; padding-bottom: 22px; padding-left: 12px; padding-right: 19px;
         width: 384px;
         height: 288px;
+        margin-right: 6.1%;
     }
-}
-
-.article-block__wrapper {
-    padding: 15px;
 }
 
 .article-block1__body {
@@ -128,7 +125,7 @@
     text-align: center;
     padding-right: 15px;
     @include md {
-        font-size: 21px;
+        font-size: 16px;
         order: 2;
         width: max-content;
     }
@@ -148,8 +145,8 @@
     text-align: center;
     padding-right: 15px;
     @include md {
-        font-size: 21px;
-        width: 100%;
+        font-size: 16px;
+        width: 162px;
 
     }
     @include lg {
@@ -168,7 +165,7 @@
     text-align: center;
     padding-right: 15px;
     @include md {
-        font-size: 21px;
+        font-size: 16px;
         order: 2;
         width: 267px;
     }
@@ -213,5 +210,23 @@
     @include lg {
         width: 245px;
         height: 246px;  
+    }
+}
+
+.article-block1__wrapper {
+    padding: 15px;
+}
+
+.article-block2__wrapper {
+    padding: 15px;
+    @include {
+        padding: 1px;
+    }
+}
+
+.article-block3__wrapper {
+    padding: 15px;
+    @include md {
+        padding-bottom: 0%;
     }
 }
