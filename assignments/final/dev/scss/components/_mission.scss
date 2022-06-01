@@ -43,6 +43,15 @@
     @include md {
         margin-right: 108px;
     }
+    @include lg {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding-left: 108px;
+        padding-right: 108px;
+        margin-left: 108px;
+        margin-right: 108px;
+    }
 }
 
 .mission__image {
@@ -52,8 +61,12 @@
     border-radius: 8px;
     @include md {
         margin-left: 101px;
-
         width: 630px;
+    }
+    @include lg {
+        margin-left: 0px;
+        width: 1038px;
+        height: 487px;
     }
 }
 

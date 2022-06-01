@@ -4,6 +4,8 @@
         display: none;
     }
     @include lg {
+        display: flex;
+        flex-direction: row;
         padding-bottom: 146px;
     } 
 }
@@ -14,7 +16,7 @@
     flex-direction: row;
     margin-left: 4%;
     margin-right: 4%;
-    justify-content: Z;
+    justify-content: space-between;
     @include md {
         flex-direction: column;
         justify-content: center;
@@ -41,8 +43,13 @@
         line-height: 48px;
     }
     @include lg {
-        font-size: 70px;
-        line-height: 77px;
+        font-size: 60px;
+        line-height: 61px;
+        height: 96px;
+        padding-bottom: 12px;
+        padding-top: 12px;
+        width: 100%;
+        margin-bottom: 20px;
     }
 }
 
@@ -57,7 +64,11 @@
         padding-bottom: 16px; 
     }
     @include lg {
-        padding: 30px;
+        padding: 40px;
+        width: 246px;
+        height: 246px;
+        justify-content: space-between;
+        flex-direction: row;
     }
 }
 

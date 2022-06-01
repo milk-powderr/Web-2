@@ -26,14 +26,18 @@
 }
 
 .date-block__event {
+    display: none;
     @include md{
+        display: flex;
         padding-left: 8.39%;
         font-size: 24px;
     }
 }
 
 .date-block__calendar {
+    display: none;
     @include md{
+        display: flex;
         font-size: 24px;
         padding-right: 23.5%;
     }
@@ -56,13 +60,12 @@
     }
     @include lg {
         display: flex;
-        
         background-color: $purple;
         font-style: normal;
         font-weight: 700;
         font-size: 40px;
         line-height: 77px;
-        
+        flex-direction: column;
         color: $white;
         padding-bottom: 12px;
         padding-top: 12px;
@@ -93,7 +96,11 @@
     @include md {
         padding-top: 81px;
         width: 360px;
-}
+    }
+    @include lg {
+        padding-top: 81px;
+        width: 450px;
+    }
 }
 
 .date-extra-block__grid {
