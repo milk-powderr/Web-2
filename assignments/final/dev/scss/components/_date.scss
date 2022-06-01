@@ -23,9 +23,6 @@
         padding-bottom: 12px;
         padding-top: 12px;
     }
-    @include lg {
-        display: none;
-    }
 }
 
 .date-block__event {
@@ -57,6 +54,19 @@
     @include md {
         display: none;
     }
+    @include lg {
+        display: flex;
+        
+        background-color: $purple;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 77px;
+        
+        color: $white;
+        padding-bottom: 12px;
+        padding-top: 12px;
+    }
 }
 
 .date-block__grid {
@@ -67,6 +77,10 @@
         flex-direction: row;
         justify-content: space-between;
         padding-right: 10%;
+    }
+    @include lg {
+        flex-direction: column;
+        padding-right: 0%;
     }
 }
 
@@ -79,7 +93,7 @@
     @include md {
         padding-top: 81px;
         width: 360px;
-    }
+}
 }
 
 .date-extra-block__grid {
@@ -94,6 +108,9 @@
         align-items: center;
         margin-bottom: 18px;
         align-self: flex-end;
+    }
+    @include lg {
+        display: none;
     }
 }
 
@@ -136,8 +153,16 @@
 }
 
 .date-extra-block__image {
+    margin-left: 11px;
+    padding-bottom: 12px; padding-right: 16px;
+}
+
+.date-block__iregular {
+    display: flex;
     @include md {
-        margin-left: 11px;
-        padding-bottom: 12px; padding-right: 54px;
+        display: flex;
+    }
+    @include lg {
+        display: none;
     }
 }
