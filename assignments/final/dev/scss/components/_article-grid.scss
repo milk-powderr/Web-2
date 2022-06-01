@@ -85,7 +85,8 @@
         padding-left: 0px;
     }
     @include lg {
-        width: 311px;   
+        width: 311px;
+        height: 288px;
     }
 }
 
@@ -219,9 +220,6 @@
 
 .article-block2__wrapper {
     padding: 15px;
-    @include {
-        padding: 1px;
-    }
 }
 
 .article-block3__wrapper {

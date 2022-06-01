@@ -551,7 +551,8 @@ h1, h2, h3, h4, h5, h6 {
       padding-left: 0px; } }
   @media (min-width: 992px) {
     .article-block2 {
-      width: 311px; } }
+      width: 311px;
+      height: 288px; } }
 .article-block3 {
   display: flex;
   background-color: #BF8ED2;
@@ -710,7 +711,9 @@ h1, h2, h3, h4, h5, h6 {
       line-height: 77px; } }
 .listings-block__grid {
   padding-left: 16px; }
-
+  @media (min-width: 992px) {
+    .listings-block__grid {
+      display: flex; } }
 .listings__body {
   font-weight: 400;
   font-size: 16px;
@@ -725,6 +728,11 @@ h1, h2, h3, h4, h5, h6 {
       align-items: flex-start;
       margin-left: 0%;
       width: 179px; } }
+  @media (min-width: 992px) {
+    .listings__body {
+      font-size: 20px;
+      line-height: 35px;
+      width: 228px; } }
 .listings__button {
   color: #4C0564;
   margin-right: 16px;
@@ -737,7 +745,14 @@ h1, h2, h3, h4, h5, h6 {
   width: 179px;
   border-radius: 8px;
   align-items: center; }
-
+  @media (min-width: 992px) {
+    .listings__button {
+      width: 240px;
+      height: 50px;
+      font-weight: 500;
+      font-size: 21px;
+      line-height: 42px;
+      padding-top: 4px; } }
 .listings-row {
   align-items: center;
   flex-direction: column; }
@@ -746,6 +761,14 @@ h1, h2, h3, h4, h5, h6 {
       display: flex;
       flex-direction: row;
       flex-wrap: wrap; } }
+  @media (min-width: 992px) {
+    .listings-row {
+      width: max-content;
+      display: flex;
+      flex-wrap: wrap;
+      column-gap: 120px;
+      margin-left: 7.49%;
+      flex-direction: row; } }
 .listings1-row {
   display: flex;
   align-items: center; }
