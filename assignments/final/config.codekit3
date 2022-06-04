@@ -9,6 +9,26 @@
   ],
   "creatorBuild" : "34365",
   "files" : {
+    "\/deploy\/account.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/account.html",
+      "oF" : 0
+    },
+    "\/deploy\/css\/styles-account.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/css\/styles-account-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
     "\/deploy\/css\/styles.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -461,6 +481,22 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/dev\/account.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/account.html",
+      "oF" : 0
+    },
+    "\/dev\/account.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/account.html",
+      "oF" : 0
+    },
     "\/dev\/components\/article-grid.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -491,6 +527,14 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/components\/footer.html",
+      "oF" : 0
+    },
+    "\/dev\/components\/header-account.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/components\/header-account.html",
       "oF" : 0
     },
     "\/dev\/components\/header.kit" : {
@@ -695,6 +739,21 @@
       "pg" : 0,
       "sct" : 1
     },
+    "\/dev\/scss\/components\/_header-account.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/components\/_header-account.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 1
+    },
     "\/dev\/scss\/components\/_header.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -840,6 +899,21 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/helpers\/_variables.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 1
+    },
+    "\/dev\/scss\/styles-account.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/scss\/styles-account.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
