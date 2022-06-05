@@ -169,6 +169,10 @@
 
 .check-circle__image {
     padding-bottom: 85px;
+    @include md {
+      width: 192px;
+      padding-bottom: 90px;
+    }
 }
 
 .confirm__title {
