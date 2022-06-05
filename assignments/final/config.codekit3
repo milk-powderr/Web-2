@@ -15,19 +15,7 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/account.html",
-      "oF" : 0
-    },
-    "\/deploy\/css\/styles-account.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/css\/styles-account-min.css",
-      "oF" : 0,
-      "pg" : 0
+      "oF" : 1
     },
     "\/deploy\/css\/styles.css" : {
       "aP" : 1,
@@ -449,6 +437,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/Steps.png" : {
+      "ft" : 32768,
+      "iS" : 1171,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Steps.png",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/truck.png" : {
       "ft" : 32768,
       "iS" : 22521,
@@ -481,21 +482,13 @@
       "sC" : 3,
       "tS" : 0
     },
-    "\/dev\/account.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/account.html",
-      "oF" : 0
-    },
     "\/dev\/account.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dev\/account.html",
-      "oF" : 0
+      "oAP" : "\/deploy\/account.html",
+      "oF" : 2
     },
     "\/dev\/components\/article-grid.kit" : {
       "cB" : 0,
@@ -567,6 +560,14 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/components\/mission.html",
+      "oF" : 0
+    },
+    "\/dev\/components\/name.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/components\/name.html",
       "oF" : 0
     },
     "\/dev\/components\/search-bar.kit" : {
@@ -829,6 +830,21 @@
       "pg" : 0,
       "sct" : 1
     },
+    "\/dev\/scss\/components\/_name.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/components\/_name.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 1
+    },
     "\/dev\/scss\/components\/_navigation.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -899,21 +915,6 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/helpers\/_variables.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
-    },
-    "\/dev\/scss\/styles-account.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/scss\/styles-account.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,

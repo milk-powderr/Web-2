@@ -1,0 +1,199 @@
+.name-block__section {
+    padding-top: 127px;
+    padding-bottom: 65px;
+    @include md {
+        padding-bottom: 112px;
+        padding-top: 86px;
+    }
+    @include lg {
+        padding-bottom: 146px;
+    } 
+}
+
+.name-block__title {
+    background-color: $purple;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    color: $white;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    @include md {
+        font-size: 40px;
+        line-height: 48px;
+    }
+    @include lg {
+        font-size: 70px;
+        line-height: 77px;
+    }
+}
+
+:root {
+  --circle-size: clamp(1.5rem, 5vw, 3rem);
+  --spacing: clamp(0.25rem, 2vw, 0.5rem);
+}
+
+.c-stepper {
+  display: flex;
+}
+
+.c-stepper1__item {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  text-align: center;
+  padding-top: 60px;
+
+  &:before {
+    --size: 3rem;
+    content: "";
+    display: block;
+    width: var(--circle-size);
+    height: var(--circle-size);
+    border-radius: 50%;
+    background-color: $circle-purple;
+    margin: 0 auto 1rem;
+  }
+
+  &:not(:last-child) {
+    &:after {
+      content: "";
+      position: relative;
+      top: calc(var(--circle-size) / 2);
+      width: calc(100% - var(--circle-size) - calc(var(--spacing) * 2));
+      left: calc(50% + calc(var(--circle-size) / 2 + var(--spacing)));
+      height: 2px;
+      background-color: #e0e0e0;
+      order: -1;
+    }
+  }
+}
+
+.c-stepper2__item {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    text-align: center;
+    padding-top: 60px;
+  
+    &:before {
+      --size: 3rem;
+      content: "";
+      display: block;
+      width: var(--circle-size);
+      height: var(--circle-size);
+      border-radius: 50%;
+      background-color: $white;
+      outline: auto; color: $circle-purple;
+      margin: 0 auto 1rem;
+    }
+  
+    &:not(:last-child) {
+      &:after {
+        content: "";
+        position: relative;
+        top: calc(var(--circle-size) / 2);
+        width: calc(100% - var(--circle-size) - calc(var(--spacing) * 2));
+        left: calc(50% + calc(var(--circle-size) / 2 + var(--spacing)));
+        height: 2px;
+        background-color: #e0e0e0;
+        order: -1;
+      }
+    }
+  }
+
+.c-stepper3__item {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    text-align: center;
+    padding-top: 60px;
+  
+    &:before {
+      --size: 3rem;
+      content: "";
+      display: block;
+      width: var(--circle-size);
+      height: var(--circle-size);
+      border-radius: 50%;
+      background-color: $white;
+      outline: auto; color: $circle-purple;
+      margin: 0 auto 1rem;
+    }
+  
+    &:not(:last-child) {
+      &:after {
+        content: "";
+        position: relative;
+        top: calc(var(--circle-size) / 2);
+        width: calc(100% - var(--circle-size) - calc(var(--spacing) * 2));
+        left: calc(50% + calc(var(--circle-size) / 2 + var(--spacing)));
+        height: 2px;
+        background-color: #e0e0e0;
+        order: -1;
+      }
+    }
+  }
+
+.c-stepper1__title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  font-size: clamp(1rem, 4vw, 1.25rem);
+  margin-bottom: 0.5rem;
+  padding-top: 60px;
+}
+
+.c-stepper2__title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    font-size: clamp(1rem, 4vw, 1.25rem);
+    margin-bottom: 0.5rem;
+    padding-top: 60px;
+}
+
+  .c-stepper3__title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    font-size: clamp(1rem, 4vw, 1.25rem);
+    margin-bottom: 0.5rem;
+    padding-top: 60px;
+}
+
+.c-stepper__desc {
+  color: grey;
+  font-size: clamp(0.85rem, 2vw, 1rem);
+  padding-left: var(--spacing);
+  padding-right: var(--spacing);
+}
+
+.wrapper {
+  max-width: 1000px;
+  margin: 2rem auto 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+.name__input {
+    border: 2px solid $black;
+    border-radius: 8px;
+    width: 265px;
+    height: 38px;
+    box-shadow: 8px 8px $dark-grey;
+    padding-bottom: 36px;
+    position: relative;
+    top: auto;
+}
+
+.first-name {
+    font-size: 20px;
+
+}
