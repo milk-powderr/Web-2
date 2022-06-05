@@ -1,4 +1,4 @@
-.name-block__section {
+.term-block__section {
     padding-top: 127px;
     padding-bottom: 140px;
     @include md {
@@ -10,36 +10,16 @@
     } 
 }
 
-.name-block__title {
-    background-color: $purple;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 48px;
-    text-align: center;
-    color: $white;
-    padding-bottom: 12px;
-    padding-top: 12px;
-    @include md {
-        font-size: 40px;
-        line-height: 48px;
-    }
-    @include lg {
-        font-size: 70px;
-        line-height: 77px;
-    }
-}
-
 :root {
   --circle-size: clamp(1.5rem, 5vw, 3rem);
   --spacing: clamp(0.25rem, 2vw, 0.5rem);
 }
 
-.c-stepper-name {
+.c-stepper-term {
   display: flex;
 }
 
-.c-stepper-name1__item {
+.c-stepper-term1__item {
   display: flex;
   flex-direction: column;
   flex: 1;
@@ -71,7 +51,39 @@
   }
 }
 
-.c-stepper-name2__item {
+.c-stepper-term2__item {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    text-align: center;
+    padding-top: 60px;
+  
+    &:before {
+      --size: 3rem;
+      content: "";
+      display: block;
+      width: var(--circle-size);
+      height: var(--circle-size);
+      border-radius: 50%;
+      background-color: $circle-purple;
+      margin: 0 auto 1rem;
+    }
+  
+    &:not(:last-child) {
+      &:after {
+        content: "";
+        position: relative;
+        top: calc(var(--circle-size) / 2);
+        width: calc(100% - var(--circle-size) - calc(var(--spacing) * 2));
+        left: calc(50% + calc(var(--circle-size) / 2 + var(--spacing)));
+        height: 2px;
+        background-color: #e0e0e0;
+        order: -1;
+      }
+    }
+  }
+
+.c-stepper-term3__item {
     display: flex;
     flex-direction: column;
     flex: 1;
@@ -104,40 +116,7 @@
     }
   }
 
-.c-stepper-name3__item {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    text-align: center;
-    padding-top: 60px;
-  
-    &:before {
-      --size: 3rem;
-      content: "";
-      display: block;
-      width: var(--circle-size);
-      height: var(--circle-size);
-      border-radius: 50%;
-      background-color: $white;
-      outline: auto; color: $circle-purple;
-      margin: 0 auto 1rem;
-    }
-  
-    &:not(:last-child) {
-      &:after {
-        content: "";
-        position: relative;
-        top: calc(var(--circle-size) / 2);
-        width: calc(100% - var(--circle-size) - calc(var(--spacing) * 2));
-        left: calc(50% + calc(var(--circle-size) / 2 + var(--spacing)));
-        height: 2px;
-        background-color: #e0e0e0;
-        order: -1;
-      }
-    }
-  }
-
-.c-stepper-name1__title {
+.c-stepper-term1__title {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -146,7 +125,7 @@
   padding-top: 60px;
 }
 
-.c-stepper-name2__title {
+.c-stepper-term2__title {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
@@ -155,7 +134,7 @@
     padding-top: 60px;
 }
 
-  .c-stepper-name3__title {
+  .c-stepper-term3__title {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
@@ -164,7 +143,7 @@
     padding-top: 60px;
 }
 
-.c-stepper-name__desc {
+.c-stepper-term__desc {
   color: grey;
   font-size: clamp(0.85rem, 2vw, 1rem);
   padding-left: var(--spacing);
@@ -183,105 +162,40 @@
   box-sizing: border-box;
 }
 
-.name__input {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 64px;
+.term {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    padding-left: 40px; padding-right: 40px; padding-bottom: 66px;
 }
 
-::placeholder {
+.term__body {
+    padding-left: 40px; padding-right: 40px;
+    line-height: 25px;
+}
+
+.checkbox {
     color: $purple;
 }
 
-.first-name {
-    border: 3px solid $purple;
-    border-radius: 12px;
-    width: 320px;
-    height: 48px;
-    box-shadow: 8px 8px $dark-grey;
-    position: relative;
-    top: auto;
-    font-size: 20px;
-    padding-left: 12px;
-}
-
-.last-name {
-    border: 3px solid $purple;
-    border-radius: 12px;
-    width: 320px;
-    height: 48px;
-    box-shadow: 8px 8px $dark-grey;
-    position: relative;
-    top: auto;
-    font-size: 20px;
-    padding-left: 12px;
-}
-
-.date-month {
-    border: 3px solid $purple;
-    border-radius: 12px;
-    width: 320px;
-    height: 48px;
-    box-shadow: 8px 8px $dark-grey;
-    position: relative;
-    top: auto;
-    font-size: 20px;
-    padding-left: 12px;
+.checkbox {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
     color: $purple;
-    text-transform: uppercase;
-    padding-right: 12px;
-}
 
-.email {
-    border: 3px solid $purple;
-    border-radius: 12px;
-    width: 320px;
-    height: 48px;
-    box-shadow: 8px 8px $dark-grey;
-    position: relative;
-    top: auto;
-    font-size: 20px;
-    padding-left: 12px;
-}
-
-.phone {
-    border: 3px solid $purple;
-    border-radius: 12px;
-    width: 320px;
-    height: 48px;
-    box-shadow: 8px 8px $dark-grey;
-    position: relative;
-    top: auto;
-    font-size: 20px;
-    padding-left: 12px;
-}
-
-.pass {
-    border: 3px solid $purple;
-    border-radius: 12px;
-    width: 320px;
-    height: 48px;
-    box-shadow: 8px 8px $dark-grey;
-    position: relative;
-    top: auto;
-    font-size: 20px;
-    padding-left: 12px;
-}
-
-.c-pass {
-    border: 3px solid $purple;
-    border-radius: 12px;
-    width: 320px;
-    height: 48px;
-    box-shadow: 8px 8px $dark-grey;
-    position: relative;
-    top: auto;
-    font-size: 20px;
-    padding-left: 12px;
-}
-
-.submit__button {
+    &:after {
+        color: $purple;
+    }
+  }
+  
+  .submit__button {
     color: $purple;
     margin-left: auto;
     margin-top: 29px;
@@ -294,7 +208,7 @@
     padding: 8px 16px;
     width: fit-content;
     border-radius: 8px;
-    margin-right: 27px;
+    margin-right: 27px; margin-top: 100px;
     font-size: 20px;
     @include md {
         font-size: 20px;

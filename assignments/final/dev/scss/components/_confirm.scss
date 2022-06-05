@@ -1,6 +1,6 @@
-.name-block__section {
+.confirm-block__section {
     padding-top: 127px;
-    padding-bottom: 140px;
+    padding-bottom: 69px;
     @include md {
         padding-bottom: 112px;
         padding-top: 86px;
@@ -10,36 +10,16 @@
     } 
 }
 
-.name-block__title {
-    background-color: $purple;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 48px;
-    text-align: center;
-    color: $white;
-    padding-bottom: 12px;
-    padding-top: 12px;
-    @include md {
-        font-size: 40px;
-        line-height: 48px;
-    }
-    @include lg {
-        font-size: 70px;
-        line-height: 77px;
-    }
-}
-
 :root {
   --circle-size: clamp(1.5rem, 5vw, 3rem);
   --spacing: clamp(0.25rem, 2vw, 0.5rem);
 }
 
-.c-stepper-name {
+.c-stepper-confirm {
   display: flex;
 }
 
-.c-stepper-name1__item {
+.c-stepper-confirm1__item {
   display: flex;
   flex-direction: column;
   flex: 1;
@@ -71,7 +51,7 @@
   }
 }
 
-.c-stepper-name2__item {
+.c-stepper-confirm2__item {
     display: flex;
     flex-direction: column;
     flex: 1;
@@ -85,8 +65,7 @@
       width: var(--circle-size);
       height: var(--circle-size);
       border-radius: 50%;
-      background-color: $white;
-      outline: auto; color: $circle-purple;
+      background-color: $circle-purple;
       margin: 0 auto 1rem;
     }
   
@@ -104,7 +83,7 @@
     }
   }
 
-.c-stepper-name3__item {
+.c-stepper-confirm3__item {
     display: flex;
     flex-direction: column;
     flex: 1;
@@ -118,8 +97,7 @@
       width: var(--circle-size);
       height: var(--circle-size);
       border-radius: 50%;
-      background-color: $white;
-      outline: auto; color: $circle-purple;
+      background-color: $circle-purple;
       margin: 0 auto 1rem;
     }
   
@@ -137,7 +115,7 @@
     }
   }
 
-.c-stepper-name1__title {
+.c-stepper-confirm1__title {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -146,7 +124,7 @@
   padding-top: 60px;
 }
 
-.c-stepper-name2__title {
+.c-stepper-confirm2__title {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
@@ -155,7 +133,7 @@
     padding-top: 60px;
 }
 
-  .c-stepper-name3__title {
+  .c-stepper-confirm3__title {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
@@ -164,7 +142,7 @@
     padding-top: 60px;
 }
 
-.c-stepper-name__desc {
+.c-stepper-confirm__desc {
   color: grey;
   font-size: clamp(0.85rem, 2vw, 1rem);
   padding-left: var(--spacing);
@@ -183,124 +161,24 @@
   box-sizing: border-box;
 }
 
-.name__input {
+.check {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 64px;
 }
 
-::placeholder {
-    color: $purple;
+.check-circle__image {
+    padding-bottom: 85px;
 }
 
-.first-name {
-    border: 3px solid $purple;
-    border-radius: 12px;
-    width: 320px;
-    height: 48px;
-    box-shadow: 8px 8px $dark-grey;
-    position: relative;
-    top: auto;
-    font-size: 20px;
-    padding-left: 12px;
+.confirm__title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
 }
 
-.last-name {
-    border: 3px solid $purple;
-    border-radius: 12px;
-    width: 320px;
-    height: 48px;
-    box-shadow: 8px 8px $dark-grey;
-    position: relative;
-    top: auto;
-    font-size: 20px;
-    padding-left: 12px;
-}
-
-.date-month {
-    border: 3px solid $purple;
-    border-radius: 12px;
-    width: 320px;
-    height: 48px;
-    box-shadow: 8px 8px $dark-grey;
-    position: relative;
-    top: auto;
-    font-size: 20px;
-    padding-left: 12px;
-    color: $purple;
-    text-transform: uppercase;
-    padding-right: 12px;
-}
-
-.email {
-    border: 3px solid $purple;
-    border-radius: 12px;
-    width: 320px;
-    height: 48px;
-    box-shadow: 8px 8px $dark-grey;
-    position: relative;
-    top: auto;
-    font-size: 20px;
-    padding-left: 12px;
-}
-
-.phone {
-    border: 3px solid $purple;
-    border-radius: 12px;
-    width: 320px;
-    height: 48px;
-    box-shadow: 8px 8px $dark-grey;
-    position: relative;
-    top: auto;
-    font-size: 20px;
-    padding-left: 12px;
-}
-
-.pass {
-    border: 3px solid $purple;
-    border-radius: 12px;
-    width: 320px;
-    height: 48px;
-    box-shadow: 8px 8px $dark-grey;
-    position: relative;
-    top: auto;
-    font-size: 20px;
-    padding-left: 12px;
-}
-
-.c-pass {
-    border: 3px solid $purple;
-    border-radius: 12px;
-    width: 320px;
-    height: 48px;
-    box-shadow: 8px 8px $dark-grey;
-    position: relative;
-    top: auto;
-    font-size: 20px;
-    padding-left: 12px;
-}
-
-.submit__button {
-    color: $purple;
-    margin-left: auto;
-    margin-top: 29px;
-    margin-bottom: 45px;
-    flex-direction: column;
-    display: flex;
-    align-self: flex-end;
-    text-decoration: none;
-    background-color: $yellow;
-    padding: 8px 16px;
-    width: fit-content;
-    border-radius: 8px;
-    margin-right: 27px;
-    font-size: 20px;
-    @include md {
-        font-size: 20px;
-        padding: 10px 18px;
-    }
-    @include lg {
-        padding: 12px 20px;
-    }
+.confirm__body {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
 }
