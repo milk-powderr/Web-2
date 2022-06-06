@@ -23,6 +23,8 @@
     }
     @include lg {
         flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
     } 
 }
 
@@ -47,7 +49,6 @@
         padding-bottom: 12px;
         padding-top: 12px;
         width: 100%;
-        margin-bottom: 30px;
     }
 }
 
@@ -133,6 +134,7 @@
     align-items: center;
     flex-direction: column;
     @include lg {
+        display: flex;
         flex-direction: column;
         margin-top: 90px;
     }
@@ -143,7 +145,8 @@
     align-items: center;
     flex-direction: column;
     @include lg {
-        flex-direction: column;
+        flex-direction: row;
+
     }
 }
 
@@ -153,5 +156,6 @@
     flex-direction: column;
     @include lg {
         flex-direction: column;
+        align-items: flex-start;
     }
 }
