@@ -2,38 +2,6 @@
     padding-left: 16px; padding-right: 16px; padding-bottom: 7px;
 }
 
-.search-bar__input {
-    border: 2px solid $black;
-    border-radius: 8px;
-    width: 100%;
-    box-shadow: 3px 3px 7px $black;
-    padding-bottom: 36px;
-    position: relative;
-    top: auto;
-    @include md {
-        height: 54px;
-    }
-    @include lg {
-        height: 60px;
-    }
-}
-
-.search-bar__image {
-    padding-left: 16px;
-    position: absolute;
-    left: 0px;
-    top: 5px;
-    @include md {
-        width: 50px;
-        height: 50px;
-        position: none;
-        padding-bottom: 9px;
-    }
-    @include lg {
-        padding-bottom: 3px;
-    }
-}
-
 .search-bar__button {
     color: $purple;
     margin-left: auto;

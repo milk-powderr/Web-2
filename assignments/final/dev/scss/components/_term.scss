@@ -208,22 +208,21 @@
 }
 
 .checkbox {
-    left: 9px;
-    top: 5px;
-    width: 10px;
-    height: 10px;
-    border: solid white;
-    border-width: 0 3px 3px 0;
-    -webkit-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    transform: rotate(45deg);
-    color: $purple;
-    border-radius: 100%;
-
-    &:after {
-        color: $purple;
-    }
+  width: 1.3em;
+  height: 1.3em;
+  background-color: $white;
+  border-radius: 50%;
+  vertical-align: middle;
+  border: 2px solid $purple;
+  appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+  cursor: pointer;
   }
+
+  .checkbox:checked {
+    background-color: $purple;
+}
   
   .submit__button {
     color: $purple;
@@ -247,4 +246,8 @@
     @include lg {
         padding: 12px 20px;
     }
+}
+
+.custom-checkbox .custom-control-label::before {
+  border-radius: 999px;
 }
