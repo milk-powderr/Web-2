@@ -23,8 +23,11 @@
     }
     @include lg {
         flex-direction: row;
-        align-items: flex-start;
         justify-content: space-between;
+        align-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: 0px;
     } 
 }
 
@@ -43,12 +46,14 @@
         line-height: 48px;
     }
     @include lg {
+        display: none;
         font-size: 60px;
         line-height: 61px;
         height: 96px;
         padding-bottom: 12px;
         padding-top: 14px;
         width: 100%;
+        margin-bottom: 90px;
     }
 }
 
@@ -68,6 +73,7 @@
         height: 246px;
         justify-content: space-between;
         flex-direction: row;
+        order: 1;
     }
 }
 
@@ -87,6 +93,7 @@
         height: 246px;
         justify-content: space-between;
         flex-direction: row;
+        order:1;
     }
 }
 
@@ -106,6 +113,7 @@
         height: 246px;
         justify-content: space-between;
         flex-direction: row;
+        order:1;
     }
 }
 
@@ -145,8 +153,9 @@
     align-items: center;
     flex-direction: column;
     @include lg {
-        flex-direction: row;
-
+        display: flex;
+        flex-direction: column;
+        margin-top: 90px;
     }
 }
 
@@ -155,7 +164,8 @@
     align-items: center;
     flex-direction: column;
     @include lg {
+        display: flex;
         flex-direction: column;
-        align-items: flex-start;
+        margin-top: 90px;
     }
 }
