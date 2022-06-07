@@ -4,8 +4,7 @@
         display: none;
     }
     @include lg {
-        display: flex;
-        flex-direction: row;
+        display: block;
     } 
 }
 
@@ -23,7 +22,7 @@
     }
     @include lg {
         flex-direction: row;
-        justify-content: space-between;
+
         align-content: center;
         display: flex;
         flex-wrap: wrap;
@@ -46,7 +45,7 @@
         line-height: 48px;
     }
     @include lg {
-        display: none;
+
         font-size: 60px;
         line-height: 61px;
         height: 96px;
