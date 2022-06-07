@@ -8,9 +8,11 @@
     text-align: center;
     align-items: center;
     justify-content: center;
+
     @include md {
         height: 515px;
     }
+
     @include lg {
         height: 686px;
     }
@@ -19,9 +21,11 @@
 .hero__heading {
     color: $purple;
     font-size: 28px;
+
     @include md {
         font-size: 33px;
     }
+
     @include lg {
         font-size: 38px;
     }
@@ -37,10 +41,12 @@
     padding: 10px 30px;
     border-radius: 8px;
     width: fit-content;
+
     @include md {
         font-size: 17px;
         padding: 10px 18px;
     }
+
     @include lg {
         font-size: 21px;
         padding: 12px 20px;
