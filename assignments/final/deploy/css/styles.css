@@ -1384,15 +1384,15 @@ h1, h2, h3, h4, h5, h6 {
   flex-direction: column;
   flex-wrap: wrap; }
 
-.term-block__section {
+.term-block {
   padding-top: 127px;
   padding-bottom: 140px; }
   @media (min-width: 768px) {
-    .term-block__section {
+    .term-block {
       padding-bottom: 112px;
       padding-top: 86px; } }
   @media (min-width: 992px) {
-    .term-block__section {
+    .term-block {
       padding-bottom: 146px; } }
 .term-block__image {
   padding-bottom: 226px;
