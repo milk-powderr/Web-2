@@ -30,53 +30,9 @@
 }
 
 .listings-block__grid {
-    padding-left: 16px;
+    padding-left: 16px; padding-right: 16px;
     @include lg {
         display: flex;
-    }
-}
-
-.listings__body {
-    font-weight: 400;
-    font-size: 16px;
-    align-items: center;
-    vertical-align: Top;
-    text-decoration: none;   
-    margin-left: 16px;
-    font-style: normal;
-    color: $purple;
-    @include md {
-        align-items: flex-start;
-        margin-left: 0%;
-        width: 179px;
-        height: 45px;
-    }
-    @include lg {
-        font-size: 20px;
-        line-height: 35px;
-        width: 228px;
-    }
-}
-
-.listings__button {
-    color: $purple;
-    margin-right: 16px;
-    margin-left: auto;
-    flex-direction: column;
-    display: flex;
-    text-decoration: none;
-    background-color: $yellow;
-    padding: 8px 16px;
-    min-width: 179px;
-    border-radius: 8px;
-    align-items: center;
-    @include lg {
-        width: 240px;
-        height: 50px;
-        font-weight: 500;
-        font-size: 21px;
-        line-height: 42px;
-        padding-top: 4px;
     }
 }
 
@@ -90,91 +46,65 @@
         justify-content: space-between;
     }
     @include lg {
-        width: max-content;
         display: flex;
-        flex-wrap: wrap;
-        column-gap: 120px;
-        margin-left: 2.5%;
         flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
     }
 }
 
-.listings1-row {
+.listing-block {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     @include md {
         flex-direction: column;
-padding-right: 1.9818%;
+        padding-right: 1.9818%;
         width: 25%;
+        align-items: flex-start;
+    }
+    @include lg {
+        flex-direction: column;
+        width: 25%;
+
     }
 }
 
-.listings2-row {
-    display: flex;
-    align-items: center;
+.listing-block__body {
+    font-weight: 400;
+    font-size: 16px;
+    align-items: center; 
+    font-style: normal;
+    color: $purple;
+    width: 100%;
     @include md {
-        flex-direction: column;
-padding-right: 1.9818%;
-        width: 25%;
+        align-items: flex-start;
+        margin-left: 0%;
+    }
+    @include lg {
+        font-size: 20px;
+        line-height: 35px;
     }
 }
 
-.listings3-row {
+.listing-block__button {
+    color: $purple;
     display: flex;
+    text-decoration: none;
+    background-color: $yellow;
+    padding: 8px 16px;
+    min-width: 179px;
+    border-radius: 8px;
     align-items: center;
+    font-weight: 500;
+    justify-content: center;
     @include md {
-        flex-direction: column;
-padding-right: 1.9818%;
-        width: 25%;
+        margin-right: 0px;
+        margin-left: 0px;
     }
-}
-
-.listings4-row {
-    display: flex;
-    align-items: center;
-    @include md {
-        flex-direction: column;
-padding-right: 1.9818%;
-        width: 25%;
-    }
-}
-
-.listings5-row {
-    display: flex;
-    align-items: center;
-    @include md {
-        flex-direction: column;
-padding-right: 1.9818%;
-        width: 25%;
-    }
-}
-
-.listings6-row {
-    display: flex;
-    align-items: center;
-    @include md {
-        flex-direction: column;
-padding-right: 1.9818%;
-        width: 25%;
-    }
-}
-
-.listings7-row {
-    display: flex;
-    align-items: center;
-    @include md {
-        flex-direction: column;
-padding-right: 1.9818%;
-        width: 25%;
-    }
-}
-
-.listings8-row {
-    display: flex;
-    align-items: center;
-    @include md {
-        flex-direction: column;
-padding-right: 1.9818%;
-        width: 25%;
+    @include lg {
+        font-size: 21px;
+        line-height: 42px;
+        padding-top: 4px;
     }
 }

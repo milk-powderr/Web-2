@@ -22,7 +22,6 @@
     }
     @include lg {
         flex-direction: row;
-
         align-content: center;
         display: flex;
         flex-wrap: wrap;
@@ -67,12 +66,14 @@
         padding-bottom: 16px; 
     }
     @include lg {
-        padding: 40px;
-        width: 246px;
-        height: 246px;
+        padding: 10px;
+        width: 320px;
+        height: 320px;
         justify-content: space-between;
         flex-direction: row;
         order: 1;
+        background-color: $light-purple;
+        margin-top: 30px;
     }
 }
 
@@ -87,12 +88,14 @@
         padding-bottom: 16px; 
     }
     @include lg {
-        padding: 40px;
-        width: 246px;
-        height: 246px;
+        padding: 10px;
+        width: 320px;
+        height: 320px;
         justify-content: space-between;
         flex-direction: row;
         order:1;
+        background-color: $light-purple;
+        margin-top: 30px;
     }
 }
 
@@ -107,12 +110,15 @@
         padding-bottom: 16px; 
     }
     @include lg {
-        padding: 40px;
-        width: 246px;
-        height: 246px;
+        padding: 10px;
+        width: 320px;
+        height: 320px;
         justify-content: space-between;
         flex-direction: row;
         order:1;
+        background-color: $light-purple;
+        margin-top: 30px;
+        padding-bottom: 27px;
     }
 }
 
@@ -140,6 +146,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    width: 33%;
     @include lg {
         display: flex;
         flex-direction: column;
@@ -151,6 +158,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    width: 33%;
     @include lg {
         display: flex;
         flex-direction: column;
@@ -162,9 +170,11 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    width: 33%;
     @include lg {
         display: flex;
         flex-direction: column;
         margin-top: 90px;
+        
     }
 }
