@@ -1,11 +1,13 @@
 .events-block__section {
     padding-bottom: 146px;
+
     @include md {
         display: none;
     }
+
     @include lg {
         display: block;
-    } 
+    }
 }
 
 .events-block__grid {
@@ -15,18 +17,20 @@
     margin-left: 4%;
     margin-right: 4%;
     justify-content: space-between;
+
     @include md {
         flex-direction: column;
         justify-content: center;
         flex-wrap: wrap;
     }
+
     @include lg {
         flex-direction: row;
         align-content: center;
         display: flex;
         flex-wrap: wrap;
         margin-right: 0px;
-    } 
+    }
 }
 
 .events-block__title {
@@ -39,10 +43,12 @@
     color: $white;
     padding-bottom: 12px;
     padding-top: 12px;
+
     @include md {
         font-size: 40px;
         line-height: 48px;
     }
+
     @include lg {
 
         font-size: 60px;
@@ -61,10 +67,12 @@
     margin-right: 34px;
     justify-content: space-between;
     display: flex;
+
     @include md {
         vertical-align: auto;
-        padding-bottom: 16px; 
+        padding-bottom: 16px;
     }
+
     @include lg {
         padding: 10px;
         width: 320px;
@@ -74,6 +82,7 @@
         order: 1;
         background-color: $light-purple;
         margin-top: 30px;
+        padding: 27px;
     }
 }
 
@@ -83,19 +92,22 @@
     margin-right: 34px;
     justify-content: space-between;
     display: flex;
+
     @include md {
         vertical-align: auto;
-        padding-bottom: 16px; 
+        padding-bottom: 16px;
     }
+
     @include lg {
         padding: 10px;
         width: 320px;
         height: 320px;
         justify-content: space-between;
         flex-direction: row;
-        order:1;
+        order: 1;
         background-color: $light-purple;
         margin-top: 30px;
+        padding: 27px;
     }
 }
 
@@ -105,20 +117,22 @@
     margin-right: 34px;
     justify-content: space-between;
     display: flex;
+
     @include md {
         vertical-align: auto;
-        padding-bottom: 16px; 
+        padding-bottom: 16px;
     }
+
     @include lg {
         padding: 10px;
         width: 320px;
         height: 320px;
         justify-content: space-between;
         flex-direction: row;
-        order:1;
+        order: 1;
         background-color: $light-purple;
         margin-top: 30px;
-        padding-bottom: 27px;
+        padding: 27px;
     }
 }
 
@@ -133,9 +147,11 @@
     padding-right: 15px;
     display: flex;
     align-items: center;
+
     @include md {
         display: none;
     }
+
     @include lg {
         font-size: 22px;
         display: flex;
@@ -147,6 +163,7 @@
     align-items: center;
     flex-direction: column;
     width: 33%;
+
     @include lg {
         display: flex;
         flex-direction: column;
@@ -159,6 +176,7 @@
     align-items: center;
     flex-direction: column;
     width: 33%;
+
     @include lg {
         display: flex;
         flex-direction: column;
@@ -171,10 +189,11 @@
     align-items: center;
     flex-direction: column;
     width: 33%;
+
     @include lg {
         display: flex;
         flex-direction: column;
         margin-top: 90px;
-        
+
     }
 }

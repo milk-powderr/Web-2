@@ -695,13 +695,14 @@ h1, h2, h3, h4, h5, h6 {
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
-      justify-content: space-between; } }
+      justify-content: space-between;
+      width: 100%; } }
   @media (min-width: 992px) {
     .listings-row {
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
-      justify-content: space-around; } }
+      justify-content: space-evenly; } }
 .listing-block {
   display: flex;
   align-items: center;
@@ -709,13 +710,13 @@ h1, h2, h3, h4, h5, h6 {
   @media (min-width: 768px) {
     .listing-block {
       flex-direction: column;
-      padding-right: 1.9818%;
-      width: 25%;
+      padding-right: 10px;
+      padding-left: 10px;
+      width: 21%;
       align-items: flex-start; } }
   @media (min-width: 992px) {
     .listing-block {
-      flex-direction: column;
-      width: 25%; } }
+      flex-direction: column; } }
 .listing-block__body {
   font-weight: 400;
   font-size: 16px;
@@ -748,9 +749,10 @@ h1, h2, h3, h4, h5, h6 {
       margin-left: 0px; } }
   @media (min-width: 992px) {
     .listing-block__button {
-      font-size: 21px;
+      font-size: 15px;
       line-height: 42px;
-      padding-top: 4px; } }
+      padding-top: 4px;
+      width: 100%; } }
 .events-block__section {
   padding-bottom: 146px; }
   @media (min-width: 768px) {
@@ -820,7 +822,8 @@ h1, h2, h3, h4, h5, h6 {
       flex-direction: row;
       order: 1;
       background-color: #BF8ED2;
-      margin-top: 30px; } }
+      margin-top: 30px;
+      padding: 27px; } }
 .events-block2__image {
   padding-bottom: 27px;
   margin-left: 34px;
@@ -840,7 +843,8 @@ h1, h2, h3, h4, h5, h6 {
       flex-direction: row;
       order: 1;
       background-color: #BF8ED2;
-      margin-top: 30px; } }
+      margin-top: 30px;
+      padding: 27px; } }
 .events-block3__image {
   padding-bottom: 27px;
   margin-left: 34px;
@@ -861,7 +865,7 @@ h1, h2, h3, h4, h5, h6 {
       order: 1;
       background-color: #BF8ED2;
       margin-top: 30px;
-      padding-bottom: 27px; } }
+      padding: 27px; } }
 .events-block__body {
   color: #4C0564;
   font-weight: bold;
@@ -1442,7 +1446,8 @@ h1, h2, h3, h4, h5, h6 {
   flex-wrap: wrap;
   box-shadow: 8px 8px #aaaaaa;
   align-items: center;
-  margin-left: 26px; }
+  margin-left: 26px;
+  background-color: #FFFFFF; }
 
 ::-webkit-scrollbar {
   border-radius: 8px;
@@ -1508,71 +1513,3 @@ h1, h2, h3, h4, h5, h6 {
       padding: 12px 20px; } }
 .custom-checkbox .custom-control-label::before {
   border-radius: 999px; }
-
-.confirm-block__section {
-  padding-top: 127px;
-  padding-bottom: 69px; }
-  @media (min-width: 768px) {
-    .confirm-block__section {
-      padding-bottom: 112px;
-      padding-top: 86px; } }
-  @media (min-width: 992px) {
-    .confirm-block__section {
-      padding-bottom: 146px; } }
-.check {
-  display: flex;
-  flex-direction: column;
-  align-items: center; }
-
-.check-circle__image {
-  padding-bottom: 85px; }
-  @media (min-width: 768px) {
-    .check-circle__image {
-      width: 192px;
-      padding-bottom: 90px; } }
-.confirm__title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 48px; }
-
-.confirm__body {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 28px; }
-
-.steps__image {
-  flex-wrap: wrap;
-  align-items: center;
-  display: flex; }
-  @media (min-width: 768px) {
-    .steps__image {
-      display: none; } }
-  @media (min-width: 992px) {
-    .steps__image {
-      display: none; } }
-.steps2__image {
-  display: none; }
-  @media (min-width: 768px) {
-    .steps2__image {
-      flex-wrap: wrap;
-      align-items: center;
-      display: flex; } }
-  @media (min-width: 992px) {
-    .steps2__image {
-      display: none; } }
-.steps3__image {
-  display: none; }
-  @media (min-width: 768px) {
-    .steps3__image {
-      display: none; } }
-  @media (min-width: 992px) {
-    .steps3__image {
-      flex-wrap: wrap;
-      align-items: center;
-      display: flex; } }
-.confirm-block__image {
-  padding-bottom: 226px;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap; }

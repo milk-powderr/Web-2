@@ -44,12 +44,13 @@
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-between;
+        width: 100%;
     }
     @include lg {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: space-around;
+        justify-content: space-evenly;
     }
 }
 
@@ -59,14 +60,12 @@
     justify-content: space-between;
     @include md {
         flex-direction: column;
-        padding-right: 1.9818%;
-        width: 25%;
+        padding-right: 10px; padding-left: 10px;
+        width: 21%;
         align-items: flex-start;
     }
     @include lg {
         flex-direction: column;
-        width: 25%;
-
     }
 }
 
@@ -103,8 +102,9 @@
         margin-left: 0px;
     }
     @include lg {
-        font-size: 21px;
+        font-size: 15px;
         line-height: 42px;
         padding-top: 4px;
+        width: 100%;
     }
 }

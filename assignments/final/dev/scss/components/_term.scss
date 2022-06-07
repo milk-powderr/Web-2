@@ -68,7 +68,8 @@
     flex-wrap: wrap;
     box-shadow: 8px 8px $dark-grey;
     align-items: center;
-    margin-left: 26px; 
+    margin-left: 26px;
+    background-color: $white;
 }
 
 ::-webkit-scrollbar {
