@@ -1237,15 +1237,15 @@ h1, h2, h3, h4, h5, h6 {
   @media (min-width: 992px) {
     .header__link {
       font-size: 29.25px; } }
-.name-block__section {
+.name-block {
   padding-top: 127px;
   padding-bottom: 140px; }
   @media (min-width: 768px) {
-    .name-block__section {
+    .name-block {
       padding-bottom: 112px;
       padding-top: 86px; } }
   @media (min-width: 992px) {
-    .name-block__section {
+    .name-block {
       padding-bottom: 146px; } }
 .name-block__title {
   background-color: #4C0564;
